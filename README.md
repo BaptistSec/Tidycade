@@ -25,7 +25,7 @@ This is extract-then-open, not a one-click installer. Keep the included `START-H
 
 ## What's new
 
-- Tidycade branding inside the app, separate Library and Installed pages, and clearer Naev/OpenHV covers.
+- Separate Library and Installed pages, with cover art to help you browse.
 - Downloads run in the background with progress, **Cancel** and **Retry**. Browser reloads keep the job while Tidycade is running.
 - Ubuntu adds **OpenHV** (10 games). Windows adds **OpenTyrian, OpenHV and Shattered Pixel Dungeon** (5 games).
 
@@ -35,14 +35,14 @@ Quitting Tidycade or rebooting interrupts downloads; they restart from the begin
 
 **Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands and OpenHV.
 
-**Windows Test 2:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV and Shattered Pixel Dungeon. Wine menu/setup loads are not native Windows or full gameplay approval. See the release notes for the earlier OpenTyrian Wine display issue and repeat result.
+**Windows Test 2:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV and Shattered Pixel Dungeon. Compatibility checks used Wine, which runs Windows programs on Linux. Native Windows compatibility and full gameplay remain unverified.
 
-Games need internet to install, and larger downloads can exceed 1 GB. Third-party game packages come unchanged from their official sources. Hardware requirements and first-run prompts still apply. No all-games offline or every-computer guarantee. OpenHV reached a skirmish map on Ubuntu; that is not a full playthrough of the library.
+Games need internet to install, and larger downloads can exceed 1 GB. Third-party game packages come unchanged from their official sources. Hardware requirements and first-run prompts still apply. Offline support varies by game. Not every level or computer configuration has been tested.
 
 Keep `home/` beside the program when updating. Uninstall keeps launcher save folders. Browser-game progress depends on the same browser profile and game address. Some native games also use their normal user folders for saves/settings.
 
 ## Earlier downloads
 
-Older releases and their files remain available unchanged: [Ubuntu 0.3.0](https://github.com/BaptistSec/Tidycade/releases/tag/v0.3.0), [Windows Test 1](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-1), and [all releases](https://github.com/BaptistSec/Tidycade/releases). The repo's former name redirects here, so older game-package links still work.
+Older releases and their files remain available unchanged: [Ubuntu 0.3.0](https://github.com/BaptistSec/Tidycade/releases/tag/v0.3.0), [Windows Test 1](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-1), and [all releases](https://github.com/BaptistSec/Tidycade/releases).
 
-This public repo contains the downloads page and release files. Development source, private history and test evidence stay private. Artwork credits and licences are bundled with the downloads. No launch promotion yet.
+Artwork credits and licences are included in the `attribution/` folder in each download.
