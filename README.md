@@ -1,54 +1,48 @@
-# Tidycade - Free Game Launcher
+# Tidycade
 
-Browse free games, install the ones you want and play from one library. Games download separately; you do not need to install Python or use terminal commands for the launcher.
+A small games library: choose **Install**, then **Play**. Games download only when you choose them.
 
-## Choose your download
+## Download Tidycade
 
-| Your computer | Download | Current status |
+| Your computer | Download | What you get |
 | --- | --- | --- |
-| 64-bit Intel/AMD Ubuntu | [Download Ubuntu 0.3.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.3.0/games-launcher-0.3.0-ubuntu-x86_64.tar.gz) - 7.4 MB | Nine-game library. Read the [setup and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.3.0). |
-| Windows | [Download Windows Test 1](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-1/tidycade-windows-test-1.zip) - 8.9 MB | Two games only. Real Windows desktop opening and in-game play are not yet verified. Read the [test instructions](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-1). |
+| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.4.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.4.0/tidycade-0.4.0-ubuntu-x86_64.tar.gz)** | 10 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.4.0). |
+| **Windows, 64-bit Intel/AMD** | **[Download Windows Test 2](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-2/tidycade-windows-test-2.zip)** | 5 games available to install. Checked under Wine; **not yet verified on native Windows**. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-2). |
 
-No macOS or ARM download is provided. You do not need a GitHub account for these downloads. Do not use GitHub's green Code button or automatic Source code downloads: those do not contain the launcher.
+Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
 
-## Get your first game running
+**Use the named downloads above, not GitHub's automatic "Source code" links.** Those contain this downloads page, not the ready-to-run program. The optional `.sha256` files are download-integrity checks, not programs.
 
-1. Download the file for your computer above.
-2. Extract the whole archive to a folder you can write to. Do not open the program from inside the archive.
-3. Open `games-launcher-ubuntu-x86_64` on Ubuntu, or `games-launcher.exe` on Windows. A configured default browser must be installed. The library opens there; its current title is Games.
-4. In **Library**, choose **Install** on **Pocket the Place**. This is the smallest download in both versions. Keep the launcher running and the page open while it installs.
-5. When the button changes to **Play**, click it. Your installed games are also listed under **Installed**.
+## Open it and play your first game
 
-An internet connection is needed to download games. Installing a game does not certify that every game is ready for offline travel. Before a trip, open the games you want and check their first-run requirements.
+1. Download the file for your computer, then **extract the whole archive** to a writable folder. Do not open the program from inside the ZIP/archive viewer.
+2. On Ubuntu, double-click **`tidycade-ubuntu-x86_64`**. On Windows, open **`Tidycade-Windows-TEST.exe`**. Tidycade opens Library in your default browser. No Python installation is needed.
+3. Try **Pocket the Place** first: choose **Install**, wait for it to finish, then **Play**. Other games work the same way. Installed games also have their own **Installed** page.
 
-If opening or installation fails, read the matching release instructions above. Do not run as administrator or automatically bypass security warnings. The current release does not show download progress or resume a download after you quit; improvements are in testing.
+On Ubuntu, if needed, use Properties > Permissions to allow executing the program. Do not run as root/administrator or automatically bypass security warnings. The unsigned Windows test may show an unknown-publisher warning; stop if unsure.
 
-## Ubuntu: Tidycade 0.3.0
+This is extract-then-open, not a one-click installer. Keep the included `START-HERE.txt` and `attribution/` folder with the program.
 
-[Download the Ubuntu launcher and read the instructions](https://github.com/BaptistSec/Tidycade/releases/tag/v0.3.0).
+## What's new
 
-For 64-bit Intel/AMD Ubuntu. Extract the archive and double-click the program inside. The library opens in your configured default browser. No Python installation or terminal commands are needed for the launcher.
+- Tidycade branding inside the app, separate Library and Installed pages, and clearer Naev/OpenHV covers.
+- Downloads run in the background with progress, **Cancel** and **Retry**. Browser reloads keep the job while Tidycade is running.
+- Ubuntu adds **OpenHV** (10 games). Windows adds **OpenTyrian, OpenHV and Shattered Pixel Dungeon** (5 games).
 
-Browse nine games: Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian and Widelands. Games download separately when you click Install. Third-party games keep their own credits and licences.
+Quitting Tidycade or rebooting interrupts downloads; they restart from the beginning. Installation results do not survive launcher restarts. There is no download-resume-after-reboot feature.
 
-A default browser must be installed and configured. Game hardware requirements still apply, and 3D games may need suitable graphics support. See the release instructions for saves and individual game limits.
+## Available games
 
-## Windows: Test 1, not a finished release
+**Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands and OpenHV.
 
-[Download the separate Windows test and read its limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-1).
+**Windows Test 2:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV and Shattered Pixel Dungeon. Wine menu/setup loads are not native Windows or full gameplay approval. See the release notes for the earlier OpenTyrian Wine display issue and repeat result.
 
-This test has only two installable games: Pocket the Place and OpenTTD 15.3 with free graphics, sound and music packs. It is not the nine-game Ubuntu version. Windows installation, restart with installed state and uninstall have passed background checks; opening from a real Windows desktop, the browser window and interactive gameplay have not yet been verified.
+Games need internet to install, and larger downloads can exceed 1 GB. Third-party game packages come unchanged from their official sources. Hardware requirements and first-run prompts still apply. No all-games offline or every-computer guarantee. OpenHV reached a skirmish map on Ubuntu; that is not a full playthrough of the library.
 
-Extract the ZIP to a writable folder, then open `games-launcher.exe`. No Python installation is needed. Do not run as administrator or automatically bypass security warnings.
+Keep `home/` beside the program when updating. Uninstall keeps launcher save folders. Browser-game progress depends on the same browser profile and game address. Some native games also use their normal user folders for saves/settings.
 
-## Name and versions
+## Earlier downloads
 
-Tidycade is the public release name. The current programs and windows still use the original generic Games Launcher/Games names; these downloads have not been internally rebranded.
+Older releases and their files remain available unchanged: [Ubuntu 0.3.0](https://github.com/BaptistSec/Tidycade/releases/tag/v0.3.0), [Windows Test 1](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-1), and [all releases](https://github.com/BaptistSec/Tidycade/releases). The repo's former name redirects here, so older game-package links still work.
 
-Each big update gets a numbered release with clearly named downloads and an optional `.sha256` file to check download integrity. [Previous downloads remain available](https://github.com/BaptistSec/Tidycade/releases).
-
-Choose the named Ubuntu archive or Windows test ZIP in a release's Assets section. GitHub's automatic "Source code" links contain this downloads page, not the launcher. Development source and private history are not published here.
-
-## Game packages
-
-[Standalone packages used by the launcher](https://github.com/BaptistSec/Tidycade/releases/tag/game-packages-v1) remain available separately. They are not the launcher itself.
+This public repo contains the downloads page and release files. Development source, private history and test evidence stay private. Artwork credits and licences are bundled with the downloads. No launch promotion yet.
