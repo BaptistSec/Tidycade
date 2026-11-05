@@ -6,7 +6,7 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
-| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.8.3](https://github.com/BaptistSec/Tidycade/releases/download/v0.8.3/tidycade-0.8.3-ubuntu-x86_64.tar.gz)** | 16 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.8.3). |
+| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.8.4](https://github.com/BaptistSec/Tidycade/releases/download/v0.8.4/tidycade-0.8.4-ubuntu-x86_64.tar.gz)** | 16 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.8.4). |
 | **Windows, 64-bit Intel/AMD** | **[Download Windows Test 14](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-14/tidycade-windows-test-14.zip)** | 14 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-14). |
 
 Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
@@ -25,6 +25,7 @@ This is extract-then-open, not a one-click installer. Keep the included README, 
 
 ## What's new
 
+- Up and Down now move through the whole library, including out of and back into the featured section. On narrow screens they follow the single-column cards. Search, filters and open dialogs keep their normal arrow-key behavior.
 - A full-width featured game and genre-based browse sections make the library easier to explore.
 - Search titles, descriptions and creators, filter by genre, or sort by name and download size. Press Ctrl+K to jump to search.
 - Hover or arrow-select a card for three-second gameplay previews. Featured rotation stays paused while you browse, then resumes 15 seconds after leaving, three seconds after Install or six seconds after Play.
