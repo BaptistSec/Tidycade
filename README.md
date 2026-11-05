@@ -6,8 +6,8 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
-| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.5.1](https://github.com/BaptistSec/Tidycade/releases/download/v0.5.1/tidycade-0.5.1-ubuntu-x86_64.tar.gz)** | 10 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.5.1). |
-| **Windows, 64-bit Intel/AMD** | **[Download Windows Test 4](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-4/tidycade-windows-test-4.zip)** | 8 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-4). |
+| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.6.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.6.0/tidycade-0.6.0-ubuntu-x86_64.tar.gz)** | 10 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.6.0). |
+| **Windows, 64-bit Intel/AMD** | **[Download Windows Test 5](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-5/tidycade-windows-test-5.zip)** | 8 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-5). |
 
 Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
 
@@ -25,10 +25,9 @@ This is extract-then-open, not a one-click installer. Keep the included `START-H
 
 ## What's new
 
-- Smaller cards, with cover art taking at least 65% of each card and easier-to-read cover titles.
-- Green download progress replaces the grey download information while installing.
-- Move between game cards with arrow keys; use Enter or Space to choose one. Selection stays in place during downloads.
-- Play and Uninstall controls recover if a response is lost. The game libraries are unchanged: ten on Ubuntu and eight on Windows.
+- Supported game cards show gameplay previews every three seconds while hovered or selected with the keyboard. Move away to stop.
+- Preview coverage is partial in this release. Other games keep their existing cover image while more previews are prepared.
+- Compact cards, readable cover titles, green download progress and keyboard selection are retained.
 
 Keep Tidycade running during downloads. Browser reloads keep the job while the program is running. Quitting Tidycade or rebooting interrupts downloads; they restart from the beginning. Installation results do not survive launcher restarts.
 
@@ -36,7 +35,7 @@ Keep Tidycade running during downloads. Browser reloads keep the job while the p
 
 **Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands and OpenHV.
 
-**Windows Test 4:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100 and Cataclysm: Bright Nights. This is a test release; see its download page for requirements and known issues.
+**Windows Test 5:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100 and Cataclysm: Bright Nights. This is a test release; see its download page for requirements and known issues.
 
 Games need internet to install, and larger downloads can exceed 1 GB. Third-party game packages come unchanged from their official sources. Hardware requirements and first-run prompts still apply. Offline support varies by game. Not every level or computer configuration has been tested.
 
