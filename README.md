@@ -6,8 +6,8 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
-| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.4.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.4.0/tidycade-0.4.0-ubuntu-x86_64.tar.gz)** | 10 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.4.0). |
-| **Windows, 64-bit Intel/AMD** | **[Download Windows Test 2](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-2/tidycade-windows-test-2.zip)** | 5 games available to install. Checked under Wine; **not yet verified on native Windows**. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-2). |
+| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.5.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.5.0/tidycade-0.5.0-ubuntu-x86_64.tar.gz)** | 10 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.5.0). |
+| **Windows, 64-bit Intel/AMD** | **[Download Windows Test 3](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-3/tidycade-windows-test-3.zip)** | 8 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-3). |
 
 Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
 
@@ -25,9 +25,10 @@ This is extract-then-open, not a one-click installer. Keep the included `START-H
 
 ## What's new
 
-- Separate Library and Installed pages, with cover art to help you browse.
-- Downloads run in the background with progress, **Cancel** and **Retry**. Browser reloads keep the job while Tidycade is running.
-- Ubuntu adds **OpenHV** (10 games). Windows adds **OpenTyrian, OpenHV and Shattered Pixel Dungeon** (5 games).
+- Larger artwork, matching cover titles, useful one-sentence game summaries and separate creator credits.
+- Full artwork credits and licences in each game's Credits button, with layouts that fit narrow windows.
+- Windows adds **VoxeLibre (with Luanti), Warzone 2100 and Cataclysm: Bright Nights**, bringing its library to eight games. Ubuntu keeps ten games.
+- Downloads show progress, **Cancel** and **Retry**. Browser reloads keep the job while Tidycade is running.
 
 Quitting Tidycade or rebooting interrupts downloads; they restart from the beginning. Installation results do not survive launcher restarts. There is no download-resume-after-reboot feature.
 
@@ -35,7 +36,7 @@ Quitting Tidycade or rebooting interrupts downloads; they restart from the begin
 
 **Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands and OpenHV.
 
-**Windows Test 2:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV and Shattered Pixel Dungeon. Compatibility checks used Wine, which runs Windows programs on Linux. Native Windows compatibility and full gameplay remain unverified.
+**Windows Test 3:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100 and Cataclysm: Bright Nights. This is a test release; see its download page for requirements and known issues.
 
 Games need internet to install, and larger downloads can exceed 1 GB. Third-party game packages come unchanged from their official sources. Hardware requirements and first-run prompts still apply. Offline support varies by game. Not every level or computer configuration has been tested.
 
@@ -43,6 +44,6 @@ Keep `home/` beside the program when updating. Uninstall keeps launcher save fol
 
 ## Earlier downloads
 
-Older releases and their files remain available unchanged: [Ubuntu 0.3.0](https://github.com/BaptistSec/Tidycade/releases/tag/v0.3.0), [Windows Test 1](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-1), and [all releases](https://github.com/BaptistSec/Tidycade/releases).
+Older releases and their files remain available unchanged: [Ubuntu 0.4.0](https://github.com/BaptistSec/Tidycade/releases/tag/v0.4.0), [Windows Test 2](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-2), and [all releases](https://github.com/BaptistSec/Tidycade/releases).
 
 Artwork credits and licences are included in the `attribution/` folder in each download.
