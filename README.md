@@ -6,8 +6,8 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
-| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.6.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.6.0/tidycade-0.6.0-ubuntu-x86_64.tar.gz)** | 10 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.6.0). |
-| **Windows, 64-bit Intel/AMD** | **[Download Windows Test 5](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-5/tidycade-windows-test-5.zip)** | 8 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-5). |
+| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.7.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.7.0/tidycade-0.7.0-ubuntu-x86_64.tar.gz)** | 10 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.7.0). |
+| **Windows, 64-bit Intel/AMD** | **[Download Windows Test 6](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-6/tidycade-windows-test-6.zip)** | 8 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-6). |
 
 Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
 
@@ -35,7 +35,7 @@ Keep Tidycade running during downloads. Browser reloads keep the job while the p
 
 **Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands and OpenHV.
 
-**Windows Test 5:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100 and Cataclysm: Bright Nights. This is a test release; see its download page for requirements and known issues.
+**Windows Test 6:** Pocket the Place, OpenTTD, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100 and Cataclysm: Bright Nights. This is a test release; see its download page for requirements and known issues.
 
 Games need internet to install, and larger downloads can exceed 1 GB. Third-party game packages come unchanged from their official sources. Hardware requirements and first-run prompts still apply. Offline support varies by game. Not every level or computer configuration has been tested.
 
