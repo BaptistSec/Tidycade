@@ -6,7 +6,7 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
-| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.8.4](https://github.com/BaptistSec/Tidycade/releases/download/v0.8.4/tidycade-0.8.4-ubuntu-x86_64.tar.gz)** | 16 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.8.4). |
+| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.8.5](https://github.com/BaptistSec/Tidycade/releases/download/v0.8.5/tidycade-0.8.5-ubuntu-x86_64.tar.gz)** | 19 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.8.5). |
 | **Windows, 64-bit Intel/AMD** | **[Download Windows Test 14](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-14/tidycade-windows-test-14.zip)** | 14 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-14). |
 
 Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
@@ -16,7 +16,7 @@ Neither download is for macOS, phones or ARM computers. The Windows download is 
 ## Open it and play your first game
 
 1. Download the file for your computer, then **extract the whole archive** to a writable folder. Do not open the program from inside the ZIP/archive viewer.
-2. On Ubuntu, double-click **`tidycade-ubuntu-x86_64`**. On Windows, open **`Tidycade-Windows-TEST.exe`**. Tidycade opens Library in your default browser. No Python installation is needed.
+2. On Ubuntu, open the extracted **`Tidycade-Ubuntu-0.8.5`** folder and double-click **`tidycade-ubuntu-x86_64`**. On Windows, open **`Tidycade-Windows-TEST.exe`**. Tidycade opens Library in your default browser. No Python installation is needed.
 3. Try **Pocket the Place** first: choose **Install**, wait for it to finish, then **Play**. Other games work the same way. Installed games also have their own **Installed** page.
 
 On Ubuntu, if needed, use Properties > Permissions to allow executing the program. Do not run as root/administrator or automatically bypass security warnings. The unsigned Windows test may show an unknown-publisher warning; stop if unsure.
@@ -29,20 +29,22 @@ This is extract-then-open, not a one-click installer. Keep the included README, 
 - A full-width featured game and genre-based browse sections make the library easier to explore.
 - Search titles, descriptions and creators, filter by genre, or sort by name and download size. Press Ctrl+K to jump to search.
 - Hover or arrow-select a card for three-second gameplay previews. Featured rotation stays paused while you browse, then resumes 15 seconds after leaving, three seconds after Install or six seconds after Play.
-- Teeworlds joins both platforms. Freeciv remains on Ubuntu and Unciv on both platforms. Unciv downloads its own bundled Java runtime and keeps settings and saves outside its removable install folder.
+- Armagetron Advanced, FreedroidRPG and X-Moto join Ubuntu. Freeciv remains on Ubuntu and Unciv on both platforms. Unciv downloads its own bundled Java runtime and keeps settings and saves outside its removable install folder.
 - Three featured games have previous/next arrows and focused left/right keyboard controls. Each manual change resets the six-second rotation timer.
 
 Keep Tidycade running during downloads. Browser reloads keep the job while the program is running. Quitting Tidycade or rebooting interrupts downloads; they restart from the beginning. Installation results do not survive launcher restarts.
 
 ## Available games
 
-**Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands, OpenHV, Mindustry, SuperTux, The Powder Toy, Freeciv, Unciv and Teeworlds.
+**Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands, OpenHV, Mindustry, SuperTux, The Powder Toy, Freeciv, Unciv, Teeworlds, Armagetron Advanced, FreedroidRPG and X-Moto.
 
 **Windows Test 14:** Pocket the Place, OpenTTD, SuperTuxKart, Xonotic, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100, Cataclysm: Bright Nights, The Powder Toy, Unciv, Mindustry and Teeworlds. This is a test release; see its download page for requirements and known issues.
 
 Games need internet to install, and larger downloads can exceed 1 GB. Third-party game packages come from their official sources. Freeciv uses pinned Ubuntu jammy 2.6.6-1 packages with a documented portable setup/path patch, not the latest upstream Freeciv. Mindustry and SuperTux also use small Tidycade setup components, including SuperTux compatibility libraries with notices and full source. Hardware requirements and first-run prompts still apply. Offline support varies by game. Not every level or computer configuration has been tested.
 
 Keep `home/` beside the program when updating. Uninstall keeps launcher save folders. Browser-game progress depends on the same browser profile and game address. Some native games also use their normal user folders for saves/settings.
+
+Armagetron Advanced was checked in a local bot match, FreedroidRPG in tutorial dialogue and movement, and X-Moto in tutorial riding. Full campaigns, Freedroid combat, restart/save behavior and audible audio are unverified. X-Moto's optional Internet prompt is for you to decide.
 
 ## Earlier downloads
 
