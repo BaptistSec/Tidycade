@@ -6,7 +6,7 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
-| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.8.7](https://github.com/BaptistSec/Tidycade/releases/download/v0.8.7/tidycade-0.8.7-ubuntu-x86_64.tar.gz)** | 21 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.8.7). |
+| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.8.8](https://github.com/BaptistSec/Tidycade/releases/download/v0.8.8/tidycade-0.8.8-ubuntu-x86_64.tar.gz)** | 23 games available to install. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.8.8). |
 | **Windows, 64-bit Intel/AMD** | **[Download Windows Test 14](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-14/tidycade-windows-test-14.zip)** | 14 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-14). |
 
 Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
@@ -16,7 +16,7 @@ Neither download is for macOS, phones or ARM computers. The Windows download is 
 ## Open it and play your first game
 
 1. Download the file for your computer, then **extract the whole archive** to a writable folder. Do not open the program from inside the ZIP/archive viewer.
-2. On Ubuntu, open the extracted **`Tidycade-Ubuntu-0.8.7`** folder and double-click **`tidycade-ubuntu-x86_64`**. On Windows, open **`Tidycade-Windows-TEST.exe`**. Tidycade opens Library in your default browser. No Python installation is needed.
+2. On Ubuntu, open the extracted **`Tidycade-Ubuntu-0.8.8`** folder and double-click **`tidycade-ubuntu-x86_64`**. On Windows, open **`Tidycade-Windows-TEST.exe`**. Tidycade opens Library in your default browser. No Python installation is needed.
 3. Try **Pocket the Place** first: choose **Install**, wait for it to finish, then **Play**. Other games work the same way. Installed games also have their own **Installed** page.
 
 On Ubuntu, if needed, use Properties > Permissions to allow executing the program. Do not run as root/administrator or automatically bypass security warnings. The unsigned Windows test may show an unknown-publisher warning; stop if unsure.
@@ -24,6 +24,8 @@ On Ubuntu, if needed, use Properties > Permissions to allow executing the progra
 This is extract-then-open, not a one-click installer. Keep the included README, test notes and `attribution/` notices with the program.
 
 ## What's new
+
+- LibreMines adds minesweeper boards and iQPuzzle adds geometric puzzles. Both use their official portable Ubuntu downloads.
 
 - Lugaru HD adds martial-arts action and Principia adds physics-building adventures. Both use their official portable Ubuntu downloads.
 
@@ -40,7 +42,7 @@ Keep Tidycade running during downloads. Browser reloads keep the job while the p
 
 ## Available games
 
-**Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands, OpenHV, Mindustry, SuperTux, The Powder Toy, Freeciv, Unciv, Teeworlds, Armagetron Advanced, FreedroidRPG, X-Moto, Lugaru HD and Principia.
+**Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands, OpenHV, Mindustry, SuperTux, The Powder Toy, Freeciv, Unciv, Teeworlds, Armagetron Advanced, FreedroidRPG, X-Moto, Lugaru HD, Principia, LibreMines and iQPuzzle.
 
 **Windows Test 14:** Pocket the Place, OpenTTD, SuperTuxKart, Xonotic, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100, Cataclysm: Bright Nights, The Powder Toy, Unciv, Mindustry and Teeworlds. This is a test release; see its download page for requirements and known issues.
 
