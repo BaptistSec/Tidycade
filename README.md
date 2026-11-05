@@ -6,7 +6,7 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
-| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.9.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.9.0/tidycade-0.9.0-ubuntu-x86_64.tar.gz)** | 24 games after the small game-list update; 23 included offline. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.9.0). |
+| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.9.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.9.0/tidycade-0.9.0-ubuntu-x86_64.tar.gz)** | 25 games after the small game-list update; 23 included offline. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.9.0). |
 | **Windows, 64-bit Intel/AMD** | **[Download Windows Test 14](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-14/tidycade-windows-test-14.zip)** | 14 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-14). |
 
 Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
@@ -26,7 +26,7 @@ This is extract-then-open, not a one-click installer. Keep the included README, 
 ## What's new
 
 - Upgrade to Ubuntu 0.9.0 once, keeping your existing `home/` folder beside the executable. Future qualified games arrive through small game-list updates, not another launcher download. Tidycade checks at startup; **Check for new games** checks again. Games still install only when you choose Install. A failed check keeps the last good list, with the included library and installed games available offline.
-- 0 A.D. joins through the first separate game-list pack. Its game download is about 1.82 GB.
+- 0 A.D. joins through the first separate game-list pack. Its game download is about 1.82 GB. Pegfall joins through the second pack, with keyboard menus and play; the same launcher adds it without another client download.
 
 - LibreMines adds minesweeper boards and iQPuzzle adds geometric puzzles. Both use their official portable Ubuntu downloads.
 
@@ -45,7 +45,7 @@ Keep Tidycade running during downloads. Browser reloads keep the job while the p
 
 ## Available games
 
-**Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands, OpenHV, Mindustry, SuperTux, The Powder Toy, Freeciv, Unciv, Teeworlds, Armagetron Advanced, FreedroidRPG, X-Moto, Lugaru HD, Principia, LibreMines, iQPuzzle and 0 A.D. (after a successful game-list check).
+**Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands, OpenHV, Mindustry, SuperTux, The Powder Toy, Freeciv, Unciv, Teeworlds, Armagetron Advanced, FreedroidRPG, X-Moto, Lugaru HD, Principia, LibreMines, iQPuzzle, 0 A.D. and Pegfall (after a successful game-list check).
 
 **Windows Test 14:** Pocket the Place, OpenTTD, SuperTuxKart, Xonotic, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100, Cataclysm: Bright Nights, The Powder Toy, Unciv, Mindustry and Teeworlds. This is a test release; see its download page for requirements and known issues.
 
