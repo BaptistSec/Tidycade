@@ -4,7 +4,7 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 ## Download Tidycade
 
-Optional Ubuntu preview: [Tidycade 0.11 Preview 4](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview4) shows when it detects a native game running and blocks another launch, update or uninstall until it closes. Detection has limits described on the release page. This is a separate preview download, not an automatic update or a replacement for the recommendations below.
+Optional Ubuntu preview: [Tidycade 0.11 Preview 5](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview5) adds clear library connection errors and a retry button, while keeping the last loaded games visible after a failed refresh. It also retains running-game checks with the limits described on the release page. This is a separate preview download, not an automatic update or a replacement for the recommendations below.
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
