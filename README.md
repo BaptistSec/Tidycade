@@ -4,6 +4,8 @@ A small games library: choose **Install**, then **Play**. Games download only wh
 
 ## Download Tidycade
 
+Optional Ubuntu preview: [Tidycade 0.11 Preview 4](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview4) shows when it detects a native game running and blocks another launch, update or uninstall until it closes. Detection has limits described on the release page. This is a separate preview download, not an automatic update or a replacement for the recommendations below.
+
 | Your computer | Download | What you get |
 | --- | --- | --- |
 | **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.9.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.9.0/tidycade-0.9.0-ubuntu-x86_64.tar.gz)** | 25 games after the small game-list update; 23 included offline. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.9.0). |
