@@ -2,11 +2,11 @@
 
 A small games library: choose **Install**, then **Play**. Games download only when you choose them.
 
-![Tidycade library on Ubuntu - game cards with covers, search, genre filter and one-click Install](screenshots/library-preview5.png)
+![Tidycade 0.11 Preview 6 library on Ubuntu - game cards with covers, genre shelves, search, genre filter and one-click Install](screenshots/library-preview6.png)
 
 ## Download Tidycade
 
-Optional Ubuntu preview: [Tidycade 0.11 Preview 5](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview5) adds clear library connection errors and a retry button, while keeping the last loaded games visible after a failed refresh. It also retains running-game checks with the limits described on the release page. This is a separate preview download, not an automatic update or a replacement for the recommendations below.
+Optional Ubuntu preview: [Tidycade 0.11 Preview 6](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview6) adds truthful genre shelves, Ubuntu apt test-note links on seventeen games, and card-layout and keyboard fixes on the library page. It keeps Preview 5's clear library connection errors and retry button, and retains running-game checks with the limits described on the release page. This is a separate preview download, not an automatic update or a replacement for the recommendations below.
 
 | Your computer | Download | What you get |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ Neither download is for macOS, phones or ARM computers. The Windows download is 
 
 On Ubuntu, if needed, use Properties > Permissions to allow executing the program. Do not run as root/administrator or automatically bypass security warnings. The unsigned Windows test may show an unknown-publisher warning; stop if unsure.
 
-This is extract-then-open, not a one-click installer. Keep all files supplied in your chosen download together. Windows Test 14 includes an `attribution/` folder; Ubuntu 0.9.0 embeds its bundled notices in the executable. Preview 5 also includes `THIRD_PARTY/`. Each game card has Credits, and downloaded games carry their own notices where applicable.
+This is extract-then-open, not a one-click installer. Keep all files supplied in your chosen download together. Windows Test 14 includes an `attribution/` folder; Ubuntu 0.9.0 embeds its bundled notices in the executable. The 0.11 Ubuntu previews also include `THIRD_PARTY/`. Each game card has Credits, and downloaded games carry their own notices where applicable.
 
 ## What's new
 
@@ -49,9 +49,9 @@ Keep Tidycade running during downloads. Browser reloads keep the job while the p
 
 ### Which Ubuntu download?
 
-The recommended Ubuntu 0.9.0 above includes 23 games and currently receives two additions through its older game-list feed, for 25 choices after a successful check. Its **Check for new games** button checks that feed again. It does not receive the newer preview feed or upgrade itself to Preview 5.
+The recommended Ubuntu 0.9.0 above includes 23 games and currently receives two additions through its older game-list feed, for 25 choices after a successful check. Its **Check for new games** button checks that feed again. It does not receive the newer preview feed or upgrade itself to Preview 6.
 
-The optional Preview 5 includes 25 Ubuntu games. Its newer game-list feed currently contains 20 rows, one updating an existing game, so it is not "20 more games". On the checked Ubuntu 22.04 x86-64 environment, a successful refresh exposes 44 distinct games. Available choices depend on the package's device requirements. These counts are a snapshot of the current feeds, not a promise for every older client or computer. Preview 5 checks at startup and can auto-refresh every five minutes; the footer toggle controls that behavior. Installed games update only when you choose Update.
+The optional Preview 6 includes 25 Ubuntu games. Its newer game-list feed currently contains 20 rows, one updating an existing game, so it is not "20 more games". On the checked Ubuntu 22.04 x86-64 environment, a successful refresh exposes 44 distinct games. Available choices depend on the package's device requirements. These counts are a snapshot of the current feeds, not a promise for every older client or computer. Preview 6 checks at startup and can auto-refresh every five minutes; the footer toggle controls that behavior. Installed games update only when you choose Update.
 
 Both versions keep successfully installed games across launcher restarts. Keep the existing `home/` folder beside the executable when replacing a launcher. Internet is needed to download new games. Offline play depends on each installed game; this is not a full offline-play guarantee.
 
@@ -69,12 +69,12 @@ Armagetron Advanced was checked in a local bot match, FreedroidRPG in tutorial d
 
 ## Licence
 
-Tidycade's own launcher code is MIT-licensed; see `LICENSE` and `LICENSING.md` in the source edition archive attached to [release v0.11.0-preview5](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview5). Games, artwork and brands keep their own licences; each game card's Credits has the details.
+Tidycade's own launcher code is MIT-licensed; see `LICENSE` and `LICENSING.md` in the source edition archive attached to [release v0.11.0-preview6](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview6). Games, artwork and brands keep their own licences; each game card's Credits has the details.
 
 ## Earlier downloads
 
-Older releases and their files remain available unchanged: [Ubuntu 0.4.0](https://github.com/BaptistSec/Tidycade/releases/tag/v0.4.0), [Windows Test 2](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-2), and [all releases](https://github.com/BaptistSec/Tidycade/releases).
+Older releases and their files remain available unchanged: [Ubuntu 0.11 Preview 5](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview5), [Ubuntu 0.4.0](https://github.com/BaptistSec/Tidycade/releases/tag/v0.4.0), [Windows Test 2](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-2), and [all releases](https://github.com/BaptistSec/Tidycade/releases).
 
 Existing Windows testing used Wine, not native Windows. Mindustry on Windows reuses the Ubuntu-loaded game and an official Windows Java runtime. Mindustry, Teeworlds, SuperTuxKart and Xonotic Windows execution is unverified. Xonotic presents its own service terms for you to review. SuperTuxKart uses the official portable Windows archive, about 880 MiB to download and 1.5 GiB extracted. Teeworlds on Ubuntu was checked against a local server, not public online servers. Audible audio, all hardware and full playthroughs are unverified.
 
-Artwork credits and licences are available through Credits on each game card. Keep the notice files supplied with your chosen version: Windows Test 14 has `attribution/`, Ubuntu 0.9.0 embeds bundled notices in its executable, and Preview 5 includes `THIRD_PARTY/`. Downloaded game-list additions also keep their notices under `home/`.
+Artwork credits and licences are available through Credits on each game card. Keep the notice files supplied with your chosen version: Windows Test 14 has `attribution/`, Ubuntu 0.9.0 embeds bundled notices in its executable, and the 0.11 Ubuntu previews include `THIRD_PARTY/`. Downloaded game-list additions also keep their notices under `home/`.
