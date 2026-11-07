@@ -10,7 +10,7 @@ Browse a library of games. Install the ones you want, then press Play. Games dow
 
 | Computer | Download | Release status |
 | --- | --- | --- |
-| Ubuntu, 64-bit Intel/AMD | **[Ubuntu Preview 8](https://github.com/BaptistSec/Tidycade/releases/download/v0.11.0-preview8/tidycade-0.11.0-preview8-ubuntu-x86_64.tar.gz)** | Latest Ubuntu preview. 25 built-in games; 46 distinct choices after the checked game-list refresh. [Checks and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview8). |
+| Ubuntu, 64-bit Intel/AMD | **[Ubuntu Preview 8](https://github.com/BaptistSec/Tidycade/releases/download/v0.11.0-preview8/tidycade-0.11.0-preview8-ubuntu-x86_64.tar.gz)** | Latest Ubuntu preview. 25 built-in games; 47 distinct choices after the checked game-list refresh. [Checks and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview8). |
 | Windows, 64-bit Intel/AMD | **[Windows Test 14](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-14/tidycade-windows-test-14.zip)** | Separate test release with 14 games. Not the full Ubuntu library. [Checks and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-14). |
 
 These are previews/test releases, not a stable release. No macOS, phone or ARM download is available here. Windows testing used Wine, not native Windows.
@@ -53,7 +53,7 @@ The Installed page now shows an updates-available count. The library keeps Previ
 
 ## Game lists, requirements and older versions
 
-Preview 8 checks for catalogue updates at startup and can refresh every five minutes; the footer toggle controls this. The checked Ubuntu 22.04 x86-64 run exposed 46 distinct games after refresh. Device requirements can change what is offered. An offline first run has only the built-in list; later offline use keeps accepted cached additions. Internet is needed to install games. Offline play varies by game.
+Preview 8 checks for catalogue updates at startup and can refresh every five minutes; the footer toggle controls this. The checked Ubuntu 22.04 x86-64 run exposed 47 distinct games after refresh. Device requirements can change what is offered. An offline first run has only the built-in list; later offline use keeps accepted cached additions. Internet is needed to install games. Offline play varies by game.
 
 Third-party packages come from their official sources. Downloads can exceed 1 GB. Freeciv uses pinned Ubuntu jammy 2.6.6-1 packages with a documented portable setup/path patch, not the latest upstream release. Mindustry and SuperTux use small Tidycade setup components; SuperTux's compatibility libraries include notices and full source.
 
