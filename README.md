@@ -1,80 +1,70 @@
 # Tidycade
 
-A small games library: choose **Install**, then **Play**. Games download only when you choose them.
+Browse a library of games. Install the ones you want, then press Play. Games download separately, so you don't need to download the whole collection.
 
-![Tidycade 0.11 Preview 6 library on Ubuntu - game cards with covers, genre shelves, search, genre filter and one-click Install](screenshots/library-preview6.png)
+![Tidycade Ubuntu Preview 7: real game cards, search, genre shelves and Install buttons](screenshots/library-preview7.png)
 
-## Download Tidycade
+*The Ubuntu preview after a game-list refresh. Screenshots below are from the same running launcher, not mock-ups.*
 
-Optional Ubuntu preview: [Tidycade 0.11 Preview 6](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview6) adds truthful genre shelves, Ubuntu apt test-note links on seventeen games, and card-layout and keyboard fixes on the library page. It keeps Preview 5's clear library connection errors and retry button, and retains running-game checks with the limits described on the release page. This is a separate preview download, not an automatic update or a replacement for the recommendations below.
+## Choose your download
 
-| Your computer | Download | What you get |
+| Computer | Download | Release status |
 | --- | --- | --- |
-| **Ubuntu, 64-bit Intel/AMD** | **[Download Ubuntu 0.9.0](https://github.com/BaptistSec/Tidycade/releases/download/v0.9.0/tidycade-0.9.0-ubuntu-x86_64.tar.gz)** | 25 games after the small game-list update; 23 included offline. Portable preview. [Instructions and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.9.0). |
-| **Windows, 64-bit Intel/AMD** | **[Download Windows Test 14](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-14/tidycade-windows-test-14.zip)** | 14 games available to install. Windows test release. [Test notes and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-14). |
+| Ubuntu, 64-bit Intel/AMD | **[Ubuntu Preview 7](https://github.com/BaptistSec/Tidycade/releases/download/v0.11.0-preview7/tidycade-0.11.0-preview7-ubuntu-x86_64.tar.gz)** | Latest Ubuntu preview. 25 built-in games; 44 distinct choices after the checked game-list refresh. [Checks and limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview7). |
+| Windows, 64-bit Intel/AMD | **[Windows Test 14](https://github.com/BaptistSec/Tidycade/releases/download/windows-test-14/tidycade-windows-test-14.zip)** | Separate test release with 14 games. Not the full Ubuntu library. [Checks and limits](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-14). |
 
-Neither download is for macOS, phones or ARM computers. The Windows download is a test, not the full Ubuntu library.
+These are previews/test releases, not a stable release. No macOS, phone or ARM download is available here. Windows testing used Wine, not native Windows.
 
-**Use the named downloads above, not GitHub's automatic "Source code" links.** Those contain this downloads page, not the ready-to-run program. The optional `.sha256` files are download-integrity checks, not programs.
+Use the named downloads above. GitHub's automatic **Source code** archives contain this downloads repository, not the ready-to-run launcher. Developers can use the separately named source edition below.
 
-## Open it and play your first game
+## From download to Play
 
-1. Download the file for your computer, then **extract the whole archive** to a writable folder. Do not open the program from inside the ZIP/archive viewer.
-2. On Ubuntu, open the extracted **`Tidycade-Ubuntu-0.9.0`** folder and double-click **`tidycade-ubuntu-x86_64`**. On Windows, open **`Tidycade-Windows-TEST.exe`**. Tidycade opens Library in your default browser. No Python installation is needed.
-3. Try **Pocket the Place** first: choose **Install**, wait for it to finish, then **Play**. Other games work the same way. Installed games also have their own **Installed** page.
+1. Extract the **whole archive** to a writable folder. Don't run it inside the archive viewer.
+2. On Ubuntu, open `Tidycade-Ubuntu-0.11.0-preview7` and run `tidycade-ubuntu-x86_64`. Keep `THIRD_PARTY/` beside it. On Windows, run `Tidycade-Windows-TEST.exe` and keep its supplied files together. No Python installation is needed.
+3. Tidycade opens in your default browser. Try **Pocket the Place**: Install, wait for the download, then Play.
 
-On Ubuntu, if needed, use Properties > Permissions to allow executing the program. Do not run as root/administrator or automatically bypass security warnings. The unsigned Windows test may show an unknown-publisher warning; stop if unsure.
+On Ubuntu you may need Properties > Permissions > Allow executing. Don't run as root/administrator or bypass security warnings automatically. The unsigned Windows test may show an unknown-publisher warning; stop if unsure.
 
-This is extract-then-open, not a one-click installer. Keep all files supplied in your chosen download together. Windows Test 14 includes an `attribution/` folder; Ubuntu 0.9.0 embeds its bundled notices in the executable. The 0.11 Ubuntu previews also include `THIRD_PARTY/`. Each game card has Credits, and downloaded games carry their own notices where applicable.
+### Find something to play
 
-## What's new
+![Search for puzzle in the actual launcher: nine matching games with download sizes and Install or Play buttons](screenshots/search-preview7.png)
 
-- Upgrade to Ubuntu 0.9.0 once, keeping your existing `home/` folder beside the executable. Future qualified games arrive through small game-list updates, not another launcher download. Tidycade checks at startup; **Check for new games** checks again. Games still install only when you choose Install. A failed check keeps the last good list, with the included library and installed games available offline.
-- 0 A.D. joins through the first separate game-list pack. Its game download is about 1.82 GB. Pegfall joins through the second pack, with keyboard menus and play; the same launcher adds it without another client download.
+Search by title, description or creator, narrow by genre, and sort by name or download size. Cards show the game before you install it. Credits and any linked test notes are beside the actions.
 
-- LibreMines adds minesweeper boards and iQPuzzle adds geometric puzzles. Both use their official portable Ubuntu downloads.
+### Keep installed games together
 
-- Lugaru HD adds martial-arts action and Principia adds physics-building adventures. Both use their official portable Ubuntu downloads.
+![Installed page after genuinely installing Pocket the Place, with Play and Uninstall](screenshots/installed-preview7.png)
 
-- Larger, clearer genre headings and more space between sections make the library easier to scan. Selecting the featured tile with arrow keys returns the header and filters fully into view.
+Installed shows the games on this device, with Play and Uninstall. Preview 7 also counts available updates. Games update only when you choose Update.
 
-- Up and Down now move through the whole library, including out of and back into the featured section. On narrow screens they follow the single-column cards. Search, filters and open dialogs keep their normal arrow-key behavior.
-- A full-width featured game and genre-based browse sections make the library easier to explore.
-- Search titles, descriptions and creators, filter by genre, or sort by name and download size. Press Ctrl+K to jump to search.
-- Hover or arrow-select a card for three-second gameplay previews. Featured rotation stays paused while you browse, then resumes 15 seconds after leaving, three seconds after Install or six seconds after Play.
-- Armagetron Advanced, FreedroidRPG and X-Moto join Ubuntu. Freeciv remains on Ubuntu and Unciv on both platforms. Unciv downloads its own bundled Java runtime and keeps settings and saves outside its removable install folder.
-- Three featured games have previous/next arrows and focused left/right keyboard controls. Each manual change resets the six-second rotation timer.
+Keep your existing `home/` folder beside the executable when changing launcher versions. It holds installed games, settings, cached lists and launcher-managed saves. Uninstall keeps launcher save folders. Native games may also save in their normal user folders; browser-game progress depends on the same browser profile and game address.
 
-Keep Tidycade running during downloads. Browser reloads keep the job while the program is running. Quitting Tidycade or rebooting interrupts downloads; they restart from the beginning. Installed games remain registered across launcher restarts. In-progress downloads and their temporary status do not resume after quitting; use Install again for an interrupted download.
+## Preview 7 changes
 
-### Which Ubuntu download?
+Interrupted package downloads keep their partial data. Choose Install again to attempt a resume; a server that ignores resume causes a fresh download. Every completed package must match its declared size and SHA-256 before installation.
 
-The recommended Ubuntu 0.9.0 above includes 23 games and currently receives two additions through its older game-list feed, for 25 choices after a successful check. Its **Check for new games** button checks that feed again. It does not receive the newer preview feed or upgrade itself to Preview 6.
+Partials use disk space. Each component partial is bounded by its declared package size, but several game/content versions can accumulate. A successful install or uninstall clears that game's partial directory. There is no timed cleanup.
 
-The optional Preview 6 includes 25 Ubuntu games. Its newer game-list feed currently contains 20 rows, one updating an existing game, so it is not "20 more games". On the checked Ubuntu 22.04 x86-64 environment, a successful refresh exposes 44 distinct games. Available choices depend on the package's device requirements. These counts are a snapshot of the current feeds, not a promise for every older client or computer. Preview 6 checks at startup and can auto-refresh every five minutes; the footer toggle controls that behavior. Installed games update only when you choose Update.
+The Installed page now shows an updates-available count. The library keeps Preview 6's genre shelves, wrapping action rows and seventeen **Test notes (Ubuntu apt)** links. Those notes describe distribution-package tests, **not** the portable builds Tidycade installs.
 
-Both versions keep successfully installed games across launcher restarts. Keep the existing `home/` folder beside the executable when replacing a launcher. Internet is needed to download new games. Offline play depends on each installed game; this is not a full offline-play guarantee.
+[Release checks and known limits](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview7) cover the exact download. The resume change passed a local TLS fixture, including interrupted/cancelled transfers and bad responses. This is not a claim that every game, CDN, computer or full playthrough has been tested.
 
-## Available games
+## Game lists, requirements and older versions
 
-**Ubuntu:** Pocket the Place, Platform Pests, OpenTTD, SuperTuxKart, Shattered Pixel Dungeon, Xonotic, Naev, OpenTyrian, Widelands, OpenHV, Mindustry, SuperTux, The Powder Toy, Freeciv, Unciv, Teeworlds, Armagetron Advanced, FreedroidRPG, X-Moto, Lugaru HD, Principia, LibreMines, iQPuzzle, 0 A.D. and Pegfall (after a successful game-list check).
+Preview 7 checks for catalogue updates at startup and can refresh every five minutes; the footer toggle controls this. The checked Ubuntu 22.04 x86-64 run exposed 44 distinct games after refresh. Device requirements can change what is offered. An offline first run has only the built-in list; later offline use keeps accepted cached additions. Internet is needed to install games. Offline play varies by game.
 
-**Windows Test 14:** Pocket the Place, OpenTTD, SuperTuxKart, Xonotic, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100, Cataclysm: Bright Nights, The Powder Toy, Unciv, Mindustry and Teeworlds. This is a test release; see its download page for requirements and known issues.
+Third-party packages come from their official sources. Downloads can exceed 1 GB. Freeciv uses pinned Ubuntu jammy 2.6.6-1 packages with a documented portable setup/path patch, not the latest upstream release. Mindustry and SuperTux use small Tidycade setup components; SuperTux's compatibility libraries include notices and full source.
 
-Games need internet to install, and larger downloads can exceed 1 GB. Third-party game packages come from their official sources. Freeciv uses pinned Ubuntu jammy 2.6.6-1 packages with a documented portable setup/path patch, not the latest upstream Freeciv. Mindustry and SuperTux also use small Tidycade setup components, including SuperTux compatibility libraries with notices and full source. Hardware requirements and first-run prompts still apply. Offline support varies by game. Not every level or computer configuration has been tested.
+Running-game checks can prevent duplicate launches, updates and removal while a desktop game is detected. They are not universal: browser tabs, inaccessible processes and some externally launched interpreters are not covered. A terminal left inside a game folder can also keep it marked running. See the release notes for scope.
 
-Keep `home/` beside the program when updating. Uninstall keeps launcher save folders. Browser-game progress depends on the same browser profile and game address. Some native games also use their normal user folders for saves/settings.
+**Windows Test 14** offers Pocket the Place, OpenTTD, SuperTuxKart, Xonotic, OpenTyrian, OpenHV, Shattered Pixel Dungeon, VoxeLibre (with Luanti), Warzone 2100, Cataclysm: Bright Nights, The Powder Toy, Unciv, Mindustry and Teeworlds. Mindustry, Teeworlds, SuperTuxKart and Xonotic Windows execution remains unverified. Xonotic presents its own service terms. Audible audio, every hardware configuration and full playthroughs are unverified.
 
-Armagetron Advanced was checked in a local bot match, FreedroidRPG in tutorial dialogue and movement, and X-Moto in tutorial riding. Full campaigns, Freedroid combat, restart/save behavior and audible audio are unverified. X-Moto's optional Internet prompt is for you to decide.
+**Earlier Ubuntu 0.9.0 remains available:** [download](https://github.com/BaptistSec/Tidycade/releases/download/v0.9.0/tidycade-0.9.0-ubuntu-x86_64.tar.gz), [instructions](https://github.com/BaptistSec/Tidycade/releases/tag/v0.9.0). It has 23 built-in games and 25 after its older feed refresh. It does not upgrade itself to Preview 7 or receive the newer preview feed. Its interrupted downloads restart from the beginning.
 
-## Licence
+[Preview 6](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview6), [Preview 5](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview5) and [all earlier releases](https://github.com/BaptistSec/Tidycade/releases) remain available unchanged.
 
-Tidycade's own launcher code is MIT-licensed; see `LICENSE` and `LICENSING.md` in the source edition archive attached to [release v0.11.0-preview6](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview6). Games, artwork and brands keep their own licences; each game card's Credits has the details.
+## Source and licences
 
-## Earlier downloads
+[Download the Preview 7 developer source edition](https://github.com/BaptistSec/Tidycade/releases/download/v0.11.0-preview7/tidycade-0.11.0-preview7-source-edition.zip). Tidycade's own launcher code is MIT-licensed; see its `LICENSE` and `LICENSING.md`. It uses substitute title cards where the player binary retains game artwork, so it is not a byte-identical resource archive for that binary.
 
-Older releases and their files remain available unchanged: [Ubuntu 0.11 Preview 5](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview5), [Ubuntu 0.4.0](https://github.com/BaptistSec/Tidycade/releases/tag/v0.4.0), [Windows Test 2](https://github.com/BaptistSec/Tidycade/releases/tag/windows-test-2), and [all releases](https://github.com/BaptistSec/Tidycade/releases).
-
-Existing Windows testing used Wine, not native Windows. Mindustry on Windows reuses the Ubuntu-loaded game and an official Windows Java runtime. Mindustry, Teeworlds, SuperTuxKart and Xonotic Windows execution is unverified. Xonotic presents its own service terms for you to review. SuperTuxKart uses the official portable Windows archive, about 880 MiB to download and 1.5 GiB extracted. Teeworlds on Ubuntu was checked against a local server, not public online servers. Audible audio, all hardware and full playthroughs are unverified.
-
-Artwork credits and licences are available through Credits on each game card. Keep the notice files supplied with your chosen version: Windows Test 14 has `attribution/`, Ubuntu 0.9.0 embeds bundled notices in its executable, and the 0.11 Ubuntu previews include `THIRD_PARTY/`. Downloaded game-list additions also keep their notices under `home/`.
+Games, artwork and brands keep their own licences. Screenshots on this page show mixed game artwork and are not blanket MIT assets. Each game card has Credits. Keep the notices supplied with your chosen download: `THIRD_PARTY/` in the Ubuntu preview, `attribution/` in Windows Test 14, and notices in downloaded games and cached additions.
