@@ -2,6 +2,8 @@
 
 A small games library: choose **Install**, then **Play**. Games download only when you choose them.
 
+![Tidycade library on Ubuntu - game cards with covers, search, genre filter and one-click Install](screenshots/library-preview5.png)
+
 ## Download Tidycade
 
 Optional Ubuntu preview: [Tidycade 0.11 Preview 5](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview5) adds clear library connection errors and a retry button, while keeping the last loaded games visible after a failed refresh. It also retains running-game checks with the limits described on the release page. This is a separate preview download, not an automatic update or a replacement for the recommendations below.
@@ -64,6 +66,10 @@ Games need internet to install, and larger downloads can exceed 1 GB. Third-part
 Keep `home/` beside the program when updating. Uninstall keeps launcher save folders. Browser-game progress depends on the same browser profile and game address. Some native games also use their normal user folders for saves/settings.
 
 Armagetron Advanced was checked in a local bot match, FreedroidRPG in tutorial dialogue and movement, and X-Moto in tutorial riding. Full campaigns, Freedroid combat, restart/save behavior and audible audio are unverified. X-Moto's optional Internet prompt is for you to decide.
+
+## Licence
+
+Tidycade's own launcher code is MIT-licensed; see `LICENSE` and `LICENSING.md` in the source edition archive attached to [release v0.11.0-preview5](https://github.com/BaptistSec/Tidycade/releases/tag/v0.11.0-preview5). Games, artwork and brands keep their own licences; each game card's Credits has the details.
 
 ## Earlier downloads
 
