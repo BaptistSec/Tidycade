@@ -2,18 +2,18 @@
 
 Browse free games. Install the ones you want, then play. Games download separately.
 
-## Official 0.12.1 release
+## Official 0.12.2 release
 
 Windows and Ubuntu share the same launcher code, visual game-card interface, version and TC application icon. Native controller return and guarded game switching are now included alongside keyboard and mouse. Platform game availability still differs.
 
 | Computer | Download | Current library |
 | --- | --- | --- |
-| Ubuntu x86-64 | [Tidycade 0.12.1 for Ubuntu](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.1/tidycade-0.12.1-ubuntu-x86_64.tar.gz) | 50 games after the online refresh; 25 in the offline fallback |
-| Windows x86-64 | [Tidycade 0.12.1 for Windows](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.1/tidycade-0.12.1-windows-x86_64.zip) | The existing 14-game Windows catalogue |
+| Ubuntu x86-64 | [Tidycade 0.12.2 for Ubuntu](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.2/tidycade-0.12.2-ubuntu-x86_64.tar.gz) | 50 games after the online refresh; 25 in the offline fallback |
+| Windows x86-64 | [Tidycade 0.12.2 for Windows](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.2/tidycade-0.12.2-windows-x86_64.zip) | The existing 14-game Windows catalogue |
 
-[Official release](https://github.com/BaptistSec/Tidycade/releases/tag/v0.12.1) | [SHA-256 checksums](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.1/SHA256SUMS) | [Matching application source](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.1/tidycade-0.12.1-source.zip) | [SourceForge files](https://sourceforge.net/projects/tidycade/files/v0.12.1/)
+[Official release](https://github.com/BaptistSec/Tidycade/releases/tag/v0.12.2) | [SHA-256 checksums](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.2/SHA256SUMS) | [Matching application source](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.2/tidycade-0.12.2-source.zip) | [SourceForge files](https://sourceforge.net/projects/tidycade/files/v0.12.2/)
 
-The screenshots below show the unchanged 0.12.0 browser and controller-return interface. The 0.12.1 patch adds native download progress and cancellation.
+The screenshots below show the prior 0.12.0 browser and controller-return interface. Version 0.12.2 adds native library views and clearer browser build requirements.
 
 ![Actual 0.12.0 Ubuntu launcher and 50-game list](screenshots/library-0.12.0-ubuntu.png)
 
@@ -25,7 +25,9 @@ These are actual running interfaces, not mock-ups. Artwork retains its own licen
 
 ## Patch update
 
-0.12.1 adds live download size/stage to the native controller menu while an install is running. Its Install action becomes Cancel install, with Keep downloading selected by default. Back leaves the download running. Cancellation waits for the current step, keeps resumable partials and does not mean a completed install. A stale confirmation cannot cancel a different retry. The normal browser interface, catalogue and game recipes are unchanged.
+0.12.2 adds native All games, Installed and Running views, selection-preserving refresh and clearer empty states. The native layout was checked at 760x540. Browser cards show package testing scope, declared requirements and evidence links, with full build notes available. Genres and spacing are corrected for display after catalogue validation. Rejected catalogue updates and connection trouble have distinct messages and keep the current library. No new games or game recipes were added.
+
+The previous native download progress and guarded cancellation remain: Keep downloading is selected by default, Back leaves the download running, and confirmed cancellation keeps resumable partials.
 
 ## Play
 
@@ -65,6 +67,8 @@ The existing online catalogue has 50 Ubuntu and 14 Windows games on supported de
 Pocket the Place and Platform Pests remain separate retained-rights games. Both official packages use original MIT text-only title cards for them instead of older retained-rights gameplay images. Other media and game launch recipes are unchanged.
 
 ## Verification and limits
+
+The changed library-view and build-scope paths were checked in both frozen 0.12.2 executables: Ubuntu directly and Windows under Wine. Native keyboard views, empty states, selection and busy-quit guards passed; browser testing-scope/requirements cards and the live50/14 catalogue passed. Fresh extracted archives started with25/14offline entries, zero installed games and no private transfer fixture. No new physical-controller, native-Windows or all-game coverage is claimed.
 
 The changed native-install path was checked in both frozen patch executables: Ubuntu directly and Windows under Wine. Actual keyboard events drove native Install, live progress, default Keep, Back, confirmed cancellation and retry against a controlled HTTPS transfer. Retry resumed at the saved byte offset, then passed size/hash checks and showed Installed/Play. Existing source checks cover stale-job refusal, unrelated-job isolation and busy-quit guards. These checks do not add physical-controller or native-Windows coverage. The wider 0.12.0 checks below remain prior-release evidence for unchanged paths, not new all-game checks.
 
