@@ -2,18 +2,20 @@
 
 Browse free games. Install the ones you want, then play. Games download separately.
 
-## Official 0.12.2 release
+## Official 0.13.0 release
 
 Windows and Ubuntu share the same launcher code, visual game-card interface, version and TC application icon. Native controller return and guarded game switching are now included alongside keyboard and mouse. Platform game availability still differs.
 
 | Computer | Download | Current library |
 | --- | --- | --- |
-| Ubuntu x86-64 | [Tidycade 0.12.2 for Ubuntu](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.2/tidycade-0.12.2-ubuntu-x86_64.tar.gz) | 50 games after the online refresh; 25 in the offline fallback |
-| Windows x86-64 | [Tidycade 0.12.2 for Windows](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.2/tidycade-0.12.2-windows-x86_64.zip) | The existing 14-game Windows catalogue |
+| Ubuntu x86-64 | [Tidycade 0.13.0 for Ubuntu](https://github.com/BaptistSec/Tidycade/releases/download/v0.13.0/tidycade-0.13.0-ubuntu-x86_64.tar.gz) | 50 games after the online refresh; 25 in the offline fallback |
+| Windows x86-64 | [Tidycade 0.13.0 for Windows](https://github.com/BaptistSec/Tidycade/releases/download/v0.13.0/tidycade-0.13.0-windows-x86_64.zip) | The existing 14-game Windows catalogue |
 
-[Official release](https://github.com/BaptistSec/Tidycade/releases/tag/v0.12.2) | [SHA-256 checksums](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.2/SHA256SUMS) | [Matching application source](https://github.com/BaptistSec/Tidycade/releases/download/v0.12.2/tidycade-0.12.2-source.zip) | [SourceForge files](https://sourceforge.net/projects/tidycade/files/v0.12.2/)
+[Official release](https://github.com/BaptistSec/Tidycade/releases/tag/v0.13.0) | [SHA-256 checksums](https://github.com/BaptistSec/Tidycade/releases/download/v0.13.0/SHA256SUMS) | [Matching application source](https://github.com/BaptistSec/Tidycade/releases/download/v0.13.0/tidycade-0.13.0-source.zip) | [SourceForge files](https://sourceforge.net/projects/tidycade/files/v0.13.0/)
 
-The screenshots below show the prior 0.12.0 browser and controller-return interface. Version 0.12.2 adds native library views and clearer browser build requirements.
+![Actual 0.13.0 Ubuntu first-run guide with accepted live catalogue](screenshots/library-0.13.0-first-run-ubuntu.png)
+
+The screenshots below show the prior 0.12.0 browser and controller-return interface. Version 0.12.2 added native library views and clearer browser build requirements. Version 0.13.0 adds the local library lists shown above.
 
 ![Actual 0.12.0 Ubuntu launcher and 50-game list](screenshots/library-0.12.0-ubuntu.png)
 
@@ -23,9 +25,15 @@ The screenshots below show the prior 0.12.0 browser and controller-return interf
 
 These are actual running interfaces, not mock-ups. Artwork retains its own licenses. Controller input tests were virtual, not physical hardware; Windows checks were under Wine. Guide/Home may be reserved by the operating system. Unknown, detached, browser and unsupported windows are refused, not force-closed. This is not a universal controller-only path for every game.
 
-## Patch update
+## Library update
 
-0.12.2 adds native All games, Installed and Running views, selection-preserving refresh and clearer empty states. The native layout was checked at 760x540. Browser cards show package testing scope, declared requirements and evidence links, with full build notes available. Genres and spacing are corrected for display after catalogue validation. Rejected catalogue updates and connection trouble have distinct messages and keep the current library. No new games or game recipes were added.
+Your library now includes Favourites and Recently played in the browser and native controller menu. Add or remove a favourite on the browser game card. Recently played lists installed games you started through Tidycade, newest first. It records an accepted launcher start, not a completed play session or play time. A failed start is not added. Games started outside Tidycade are not tracked.
+
+These lists are stored only in `home/library-preferences.json`, beside your existing local installs and saves. No account or analytics service is used. Keeping the home folder during an upgrade keeps the lists too. Removing that one file resets the lists without removing games or saves. Uninstalled games stay favourited but leave Recently played until installed again. Existing installs and save data are not rewritten.
+
+The Library explains the first install and offers checked setup starting points when they exist in the accepted list, with requirements and evidence on the cards. Offline or legacy-only lists get neutral genre guidance rather than a size-based recommendation. For a returning library it links straight to Recently played or Installed. Native Build requirements shows existing package scope and declared minimum OS; full notes can scroll without pushing Play, Return or Quit out of view. Focus the notes with Left/Right, then scroll with Up/Down. Keyboard and mouse still work.
+
+Changed persistence, failed-start refusal, real API favourites, first-run/empty views, browser keyboard/mobile layout and native recent-view checks passed in the matched frozen Ubuntu and Windows-under-Wine builds. A private local web-entry fixture checked accepted-launch history and process-restart persistence; it is not included in this release and does not establish gameplay quality. There is no new physical-controller, native-Windows hardware, audio/GPU or all-games qualification. Earlier checks below apply to unchanged paths.
 
 The previous native download progress and guarded cancellation remain: Keep downloading is selected by default, Back leaves the download running, and confirmed cancellation keeps resumable partials.
 
