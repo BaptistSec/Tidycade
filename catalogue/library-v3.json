@@ -1,7 +1,7 @@
 {
- "schema": 3,
- "revision": 24,
- "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-24.zip",
- "sha256": "082160c98f0ef3bd97f9deb5e8086c17bab7e26e8b39456cf45578d2b5c1e67e",
- "bytes": 8889864
+  "schema": 3,
+  "revision": 25,
+  "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-25.zip",
+  "sha256": "c53372e01f740f9793333a0d33b18d6ebf10bb483242108dc34fde215af28161",
+  "bytes": 8876928
 }
