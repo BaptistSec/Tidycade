@@ -1,0 +1,1292 @@
+{
+  "payload": {
+    "schema": 1,
+    "version": "0.15.0",
+    "platforms": {
+      "ubuntu": {
+        "url": "https://github.com/BaptistSec/Tidycade/releases/download/v0.15.0/tidycade-0.15.0-ubuntu-x86_64.tar.gz",
+        "bytes": 30428246,
+        "sha256": "31061f481f53762bc7e022897c67bf431b529e6695870f7f94bb82b19b1c19bc",
+        "root": "Tidycade-Ubuntu-0.15.0",
+        "entry": "tidycade-ubuntu-x86_64",
+        "files": {
+          "LICENSE": {
+            "bytes": 1072,
+            "sha256": "1c523aa081eb114d0db7d91d2e81fb951d2127d69e1205f6a7ae16aaa4d3c61a",
+            "mode": 420
+          },
+          "LICENSING.md": {
+            "bytes": 1233,
+            "sha256": "d8da8b521a56f0cfdfd5ef878dbbab06a3823212713ce56ad1402e6647faf61a",
+            "mode": 420
+          },
+          "third-party-sources/SDL2-2.28.4-win32-x64.zip": {
+            "bytes": 822803,
+            "sha256": "c247328b6e310a26188770948b9d48cc6a3b6bfe899a1e4e358baede6976984e",
+            "mode": 420
+          },
+          "third-party-sources/SDL2-2.28.4.tar.gz": {
+            "bytes": 7344208,
+            "sha256": "888b8c39f36ae2035d023d1b14ab0191eb1d26403c3cf4d4d5ede30e66a4942c",
+            "mode": 420
+          },
+          "THIRD_PARTY/zstandard-0.25.0--zstd--LICENSE": {
+            "bytes": 1549,
+            "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8",
+            "mode": 420
+          },
+          "THIRD_PARTY/libexpat.so.1-copyright.txt": {
+            "bytes": 1756,
+            "sha256": "60919fe1a156395ff14511bb6ff79756c50ade2fff59ac60c9bae1d8a7fe6292",
+            "mode": 420
+          },
+          "THIRD_PARTY/libcrypto.so.3-copyright.txt": {
+            "bytes": 2543,
+            "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-Ubuntu-config.h": {
+            "bytes": 14399,
+            "sha256": "b3d5c88f5ff8bd515d33c80f2238ae73bedc0dc400818cb23a66236277a89c28",
+            "mode": 420
+          },
+          "THIRD_PARTY/libz.so.1-copyright.txt": {
+            "bytes": 2920,
+            "sha256": "d77204eee882807240f6351c4f5ae2a4bcdb5b773ff77d10647b9b66b826b2fb",
+            "mode": 420
+          },
+          "THIRD_PARTY/CPython-3.10.12-LICENSE.txt": {
+            "bytes": 13936,
+            "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+            "mode": 420
+          },
+          "THIRD_PARTY/zstandard-0.25.0--LICENSE": {
+            "bytes": 1484,
+            "sha256": "788fe85e53724a40b299051c4abc9cf74d42b27e7968325b80891c25f79adb4b",
+            "mode": 420
+          },
+          "THIRD_PARTY/zstandard-0.25.0--zstd--COPYING": {
+            "bytes": 18091,
+            "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505",
+            "mode": 420
+          },
+          "THIRD_PARTY/Apache-2.0.txt": {
+            "bytes": 10175,
+            "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+            "mode": 420
+          },
+          "THIRD_PARTY/libssl.so.3-copyright.txt": {
+            "bytes": 2543,
+            "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-PROVENANCE.json": {
+            "bytes": 570,
+            "sha256": "71806144e9afbb861cf963a1a77ef4df900a902783ff1c3a2c6931589e4c688c",
+            "mode": 420
+          },
+          "THIRD_PARTY/CPython-3.12.8-LICENSE.txt": {
+            "bytes": 13936,
+            "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+            "mode": 420
+          },
+          "THIRD_PARTY/NOTICES.md": {
+            "bytes": 2965,
+            "sha256": "52de120f9847660b1f941e4c030752520efc3d0e0b0c47f5bed3257cf08dee7d",
+            "mode": 420
+          },
+          "THIRD_PARTY/libpython3.10.so.1.0-copyright.txt": {
+            "bytes": 49855,
+            "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-yuv2rgb-BSD.txt": {
+            "bytes": 1480,
+            "sha256": "f7d74004cc75778cae46c5f0139f244d67c07ef64cf51937e8272352197dcb18",
+            "mode": 420
+          },
+          "THIRD_PARTY/Windows-Python-3.12.8-LICENSE.txt": {
+            "bytes": 36874,
+            "sha256": "e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-HIDAPI-original.txt": {
+            "bytes": 264,
+            "sha256": "fb5436aa63d1b71a8dfbf74ecaf1a5b4e1ec4df7f80074d11fec99284f69ca5f",
+            "mode": 420
+          },
+          "THIRD_PARTY/liblzma.so.5-copyright.txt": {
+            "bytes": 15465,
+            "sha256": "a2dc8fac0f496e1c58aff67018cf0c6b88336316afa5642f9335b71642e28aa8",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-HIDAPI-BSD.txt": {
+            "bytes": 1534,
+            "sha256": "30eb1bef29b46f8ba7ab8b416035dbd93cb034a45481dd97815b944284582cd2",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-2.28.4-LICENSE.txt": {
+            "bytes": 884,
+            "sha256": "9928507f684c1965d07f2b6ef4b4723d5efc2f6b4ab731f743a413c51c319927",
+            "mode": 420
+          },
+          "THIRD_PARTY/libmpdec.so.3-copyright.txt": {
+            "bytes": 2348,
+            "sha256": "be6dc763ac497102bbece71c0a83619ff538fd8e0ad43b8990c91bf323046228",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-Windows-README.txt": {
+            "bytes": 433,
+            "sha256": "f17d8919136f9627468b4dffbd7bddd188ef2aaa8ed21914d2107d1c759e99d7",
+            "mode": 420
+          },
+          "THIRD_PARTY/PyInstaller-6.22.3-COPYING.txt": {
+            "bytes": 32604,
+            "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64",
+            "mode": 420
+          },
+          "THIRD_PARTY/libbz2.so.1.0-copyright.txt": {
+            "bytes": 2228,
+            "sha256": "832ed535ff3c3d025a8d2348eb1b697b89addcf2eaadbc17650262040b9145e2",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libx11-6-copyright.txt": {
+            "bytes": 47102,
+            "sha256": "0b380a7fd5b2228f26e9585e56f14812efd3350f3df307507d2bc055dfd8de3e",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libpng16-16-copyright.txt": {
+            "bytes": 13341,
+            "sha256": "b2d88c45221e2016a5a0bb98406b45faf911f1aff87242eec12af05abae1de0a",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libfreetype6-copyright.txt": {
+            "bytes": 25162,
+            "sha256": "992b869abf2c114288dafb51c37f19c0afc3455477b9d589371d45ad214a8b07",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libbsd0-copyright.txt": {
+            "bytes": 25649,
+            "sha256": "3761714adb9c45fa588b77b372d6e75dcc9e6822cc2d6baa712007241aec714e",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxdmcp6-copyright.txt": {
+            "bytes": 1265,
+            "sha256": "1bcbb50f8603fe8b86d330bfa460b772ea04fbd3c70e4499f0768b5340b9fd6e",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libuuid1-copyright.txt": {
+            "bytes": 23045,
+            "sha256": "2c447817698777e3b2365a5afe2a58ececb85367dfdf0ea2c0df49add90e93eb",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/Windows-Tk-license.terms": {
+            "bytes": 2307,
+            "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/blt-copyright.txt": {
+            "bytes": 11606,
+            "sha256": "8ffa1d05f43fd7ba7d115c92bce8aed16c8e195fa59a33a4bb9093169c64876d",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxss1-copyright.txt": {
+            "bytes": 2679,
+            "sha256": "3ebbe713ac6980aefc18dcf407c94f51bbf02852463294bbb6dc1ee1f9fad9c3",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxrender1-copyright.txt": {
+            "bytes": 2252,
+            "sha256": "ed2a78123a5076b4f11da38cb1ffb85b5cb9fdc26b5746c517b1d7e7a9029704",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxext6-copyright.txt": {
+            "bytes": 10421,
+            "sha256": "bc57e445ca1d9fe082c8d54189dd411ff26caa8552c9c63d44ea06a982f32124",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxft2-copyright.txt": {
+            "bytes": 1438,
+            "sha256": "5960983c962c864d7d73eae6bb9b3b06c1940a23fc6d22ce10ef0f0cde8fd48d",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/Windows-Tcl-8.6.15-license.terms": {
+            "bytes": 2255,
+            "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libffi8-copyright.txt": {
+            "bytes": 3440,
+            "sha256": "7258c8acc378030d8dbe1fcdf394e915769fa31dcbaf3d2991d9a79891f3bcdc",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/RUNTIME-EXTRA-NOTICES.md": {
+            "bytes": 2108,
+            "sha256": "182b40e1b2a03b86967523ad98e15ab87321b7d45111809c6187b0e932423458",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxau6-copyright.txt": {
+            "bytes": 1224,
+            "sha256": "118dd263a7b91c8f21c489f949bf13281dff9e766deea92b829dac4dce66601a",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libfontconfig1-copyright.txt": {
+            "bytes": 1301,
+            "sha256": "b215a61cdd3e62b5b17cc28b1852c78acb3dd38be0fb30706f7efc050dba91db",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/python3-tk-copyright.txt": {
+            "bytes": 13992,
+            "sha256": "183860dfd4168e0608fb99fe53cef26088ba7275ce38a41e3c737d4217c0ccc1",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libtk8.6-copyright.txt": {
+            "bytes": 3657,
+            "sha256": "55756939bc322e1ddb187794a0deb8bdf72349ecba34b429446782cd04ea4cef",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libtcl8.6-copyright.txt": {
+            "bytes": 7062,
+            "sha256": "e925aa8863f0c9eda3625ce2cb16c0d5017fca248c5bd6af97006df5d9c6199c",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libmd0-copyright.txt": {
+            "bytes": 8018,
+            "sha256": "4365ef6255ad553fce69dd4bc0e093472c5d0e41b8ea493a545cc926ce171aa6",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/ubuntu-packages.json": {
+            "bytes": 570,
+            "sha256": "770616d8c396978a107219c1e48e40fe1b5b5d1dcfc334c14fdb3693bff329ce",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libbrotli1-copyright.txt": {
+            "bytes": 1354,
+            "sha256": "24a64e5bb83d0960d1835696a1e23c0896ad6055b0ca47c66ab0eb9a766324b1",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/COPYING": {
+            "bytes": 25310,
+            "sha256": "760b9939aba6906f39175ec0effdb645190325b8ebf8a25350fa720a6b10bde2",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/Credits.lua": {
+            "bytes": 4207,
+            "sha256": "aeb5a91eeb80c19ea9d7cce3cffb2d35fd72c3702debed49463e4e3d6bb39a90",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/FILES": {
+            "bytes": 1639,
+            "sha256": "fce5aff10751ff93df681fdfb4d93a95a713facec88d0ea4703ceb9021a06e17",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/README": {
+            "bytes": 14592,
+            "sha256": "122ad7f0c70409e1a6d9e67d0397d2fe65ecf37df051083d47119a5bb0d9cdb8",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/AUTHORS": {
+            "bytes": 102,
+            "sha256": "76e4f3f53184f7bcbe45533c6d8b71701972289692b8ce7b6403f2dfb568acb5",
+            "mode": 420
+          },
+          "attribution/warzone2100/MEDIA-NOTICES.txt": {
+            "bytes": 470,
+            "sha256": "b4f055a0c65fc84dc0f363d6e748463f16afad917de74ced224db1095ebad8e4",
+            "mode": 420
+          },
+          "attribution/lugaru/README.md": {
+            "bytes": 3134,
+            "sha256": "6f88ac4cd80534cb34effc8579ac1db2a5ab62c27e644de2deaf1eabe32d9273",
+            "mode": 420
+          },
+          "attribution/lugaru/CONTENT-LICENSE.txt": {
+            "bytes": 1650,
+            "sha256": "df020520630390de59394235a90a17c5d52d3b80ef76e2edf6d0690cd8b7fd7c",
+            "mode": 420
+          },
+          "attribution/lugaru/COPYING.txt": {
+            "bytes": 18092,
+            "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+            "mode": 420
+          },
+          "attribution/lugaru/AUTHORS": {
+            "bytes": 288,
+            "sha256": "bf7ad7e3da65d31e09f6df6bf80fab073c4fd41c9b96eaa79aa01505d590e238",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/README.md": {
+            "bytes": 2005,
+            "sha256": "4857ab6e1352dd5838c7869c6ebde3333dc7def4d1c69420701c70868a6398fb",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/COPYING": {
+            "bytes": 35147,
+            "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/COPYING-ICONS": {
+            "bytes": 9372,
+            "sha256": "d0ad9040e5e12c8705687cc46aa48e83f47a426869e1f776d7f1bbffcd92824f",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/block.cpp": {
+            "bytes": 12676,
+            "sha256": "647ca5079a513e23ee18c0872e25109c77a99eef79ccab40cdfccc626b22e1e8",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/board.cpp": {
+            "bytes": 25039,
+            "sha256": "c7529cbbacff1f3eec11f2ce5d750a7c75f5548654fd51dfe28a7c688fb8a3cd",
+            "mode": 420
+          },
+          "attribution/decoder/zstandard-0.25.0--zstd--LICENSE": {
+            "bytes": 1549,
+            "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8",
+            "mode": 420
+          },
+          "attribution/decoder/zstandard-0.25.0--LICENSE": {
+            "bytes": 1484,
+            "sha256": "788fe85e53724a40b299051c4abc9cf74d42b27e7968325b80891c25f79adb4b",
+            "mode": 420
+          },
+          "attribution/decoder/zstandard-0.25.0--zstd--COPYING": {
+            "bytes": 18091,
+            "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505",
+            "mode": 420
+          },
+          "attribution/principia/LICENSE.md": {
+            "bytes": 1373,
+            "sha256": "4673ac7f2a3374b22d89351e9ffb25921ecd32bd42a22da3bea453eae5970b1b",
+            "mode": 420
+          },
+          "attribution/principia/README.md": {
+            "bytes": 2228,
+            "sha256": "b78bd293aaf3af689d5b5110f599f62baea1fec28d5e331f895f24dba558d869",
+            "mode": 420
+          },
+          "attribution/principia/Roboto-LICENSE.txt": {
+            "bytes": 4487,
+            "sha256": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410",
+            "mode": 420
+          },
+          "attribution/principia/GloriaHellelujah-LICENSE.txt": {
+            "bytes": 4456,
+            "sha256": "179d94a7a42ce98cc0ef2bfad604b77e9b0a9cc03e6a9ae8844844e3028d04b2",
+            "mode": 420
+          },
+          "attribution/principia/AUTHORS.md": {
+            "bytes": 382,
+            "sha256": "24ab563f8cc9eb8d028e39e441c925fc8c7a09c1392e0b25ecddf39255907c80",
+            "mode": 420
+          },
+          "attribution/principia/SourceCodePro-LICENSE.txt": {
+            "bytes": 4473,
+            "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+            "mode": 420
+          },
+          "attribution/luanti-voxelibre/MEDIA-NOTICES.txt": {
+            "bytes": 3352,
+            "sha256": "65c2366ab1a7c8058070c3d5ed681bd77d26ec84ac639fc9019c7156b7f74d40",
+            "mode": 420
+          },
+          "attribution/pegfall/SOURCE.txt": {
+            "bytes": 374,
+            "sha256": "da533a8cff3c0a70c27adc4b808cdba77f464c7516efb2f5ecd3bd73eb19b5ba",
+            "mode": 420
+          },
+          "attribution/pegfall/LICENSE.txt": {
+            "bytes": 1067,
+            "sha256": "2b5c52cc9ce13a4f61fa663092e80b93d3dd18fcb3ec1544f198e2ba5273ee22",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/THIRD_PARTY_NOTICES.md": {
+            "bytes": 4480,
+            "sha256": "d8f4ff8f18a57b1f0d0f1d18da10bab67556e0b92f139e729d7d9917cb2f1dec",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/SOURCES.md": {
+            "bytes": 2139,
+            "sha256": "cc32b757c97538b5b2bb5dcd11ae4bd3e9c49bcce8d692a2ae3110c7a3d45613",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/GCC-Runtime-Exception-3.1.txt": {
+            "bytes": 3324,
+            "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/OFL-1.1.txt": {
+            "bytes": 4414,
+            "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/Apache-2.0.txt": {
+            "bytes": 11358,
+            "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/PSF-Python-3.10.txt": {
+            "bytes": 13936,
+            "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/zlib_license.txt": {
+            "bytes": 2895,
+            "sha256": "cf933153e9a60533c56fd1dcd555b15bff9a81c3468b5df1dc99aa7866c8b5fd",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/GPL-3.0.txt": {
+            "bytes": 35149,
+            "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/FTL.txt": {
+            "bytes": 6743,
+            "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/SDL2-LICENSE.txt": {
+            "bytes": 884,
+            "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/LGPL-2.1.txt": {
+            "bytes": 26419,
+            "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/GPL-2.0.txt": {
+            "bytes": 17984,
+            "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+            "mode": 420
+          },
+          "attribution/xmoto/README.md": {
+            "bytes": 6322,
+            "sha256": "437c25fc5ab07b966113db901facffeb8d72fdbf8d4fcb69da24e7ffbe7e92fa",
+            "mode": 420
+          },
+          "attribution/xmoto/COPYING": {
+            "bytes": 17992,
+            "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670",
+            "mode": 420
+          },
+          "attribution/teeworlds/DejaVu-LICENSE.txt": {
+            "bytes": 8816,
+            "sha256": "7a083b136e64d064794c3419751e5c7dd10d2f64c108fe5ba161eae5e5958a93",
+            "mode": 420
+          },
+          "attribution/teeworlds/BUNDLED-FONT-NOTICE.txt": {
+            "bytes": 4765,
+            "sha256": "f1d7e97481cf4ac81f2d3ab8b14a483fb34b0b4824a3f8d2b1c70a6fa86a3b08",
+            "mode": 420
+          },
+          "attribution/teeworlds/LICENSE.txt": {
+            "bytes": 1724,
+            "sha256": "939b8a48a53be9aaa0b1774117ddcd6a9d3c3a395b8e209b6de0b465317b5e6f",
+            "mode": 420
+          },
+          "attribution/0ad/license_gpl-2.0.txt": {
+            "bytes": 17987,
+            "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6",
+            "mode": 420
+          },
+          "attribution/0ad/upstream.sha256sum": {
+            "bytes": 93,
+            "sha256": "975257f26900cfd4c1460524cdc8b0c02df0c2f225852a4a0f746d10bc0465a5",
+            "mode": 420
+          },
+          "attribution/0ad/LICENSE.txt": {
+            "bytes": 3049,
+            "sha256": "cb9eb5e8768328e8086b0d17bd1b95f07b51bc9ab74fa1b509ee09c7894b2f53",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/mod.json": {
+            "bytes": 193,
+            "sha256": "a5cf63a85c0e40afbcacc1eb56c8f9c5852166104ee946a603873c29fea86573",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/maps/random/LICENSE.txt": {
+            "bytes": 1499,
+            "sha256": "7b8d340060f8b06c5ffbf4c81d88800406ca5e57025a8bb851a27a13dcb971a8",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/art/LICENSE.txt": {
+            "bytes": 1426,
+            "sha256": "ef98babd771c206032e005f3d440a1e610df409d9a9191f03e64deaa4abefbd9",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/art/LICENSE.txt": {
+            "bytes": 837,
+            "sha256": "e510c9cc5d55516ae6624921e6e977aa57a75ceefdb7315b5108f5a33fcce38f",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/DejaVu-LICENSE.txt": {
+            "bytes": 4814,
+            "sha256": "a6ed0d41ebee3ca53d22f4d55be20d64291a4f5fa8e303468839993343a830eb",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/LibBiolinum-LICENSE.txt": {
+            "bytes": 1308,
+            "sha256": "eb79f0ae27d4f907f556e82756a4b31251270556c8d068fa72d70bfa283b6421",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/FreeFont-LICENSE.txt": {
+            "bytes": 1298,
+            "sha256": "47cf78711b03e3096809878b4cbb049ecf46fa4fbb0cfa77bf99fc2ed53c1dd9",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/source-han-sans -LICENSE.txt": {
+            "bytes": 4463,
+            "sha256": "f55c2d43dd905011515f5e46ba78d180027e314ef8ccaaf53a9e88fe316767cd",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/LICENSE.txt": {
+            "bytes": 418,
+            "sha256": "bcbc6f2a53c0ca92820800b251e130a714c750e1299db0dbe5da10c0d611febe",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/audio/LICENSE.txt": {
+            "bytes": 837,
+            "sha256": "eeb9914f42e7a3ab6e8e9b7b46e57697ba44e7b7a4d2a1c990bd19ebc9535e94",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/audio/LICENSE.txt": {
+            "bytes": 836,
+            "sha256": "dabb2ee881522112ee70539aec179f3a639b8fc58e6a7ca06df2791fabd51537",
+            "mode": 420
+          },
+          "attribution/unciv/DesktopLauncher.kt": {
+            "bytes": 6941,
+            "sha256": "0e44a93114e18b33b9f9dba94d928552c89e8d093a86cf823e97ccedaced5867",
+            "mode": 420
+          },
+          "attribution/unciv/LICENSE": {
+            "bytes": 16725,
+            "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+            "mode": 420
+          },
+          "attribution/unciv/Credits.md": {
+            "bytes": 75694,
+            "sha256": "e3f3e4fbb15d90978879bb114d0620bf5a207b1a9a6198484c888755d175001a",
+            "mode": 420
+          },
+          "attribution/libremines/README.md": {
+            "bytes": 7679,
+            "sha256": "606f3834e7b3552135475a2276bb151633bd70f621ff36699c98241f6bab3d83",
+            "mode": 420
+          },
+          "attribution/libremines/share-minefield_themes-README.md": {
+            "bytes": 2555,
+            "sha256": "efe0288d61b5c1645c2323064c3bf913ab8bea2c328b4950a8455820e7cf8345",
+            "mode": 420
+          },
+          "attribution/libremines/share-sound_effects-README.md": {
+            "bytes": 411,
+            "sha256": "4060226ceff593efd487eb909a98d95307b790ca1b8365426595722949521bba",
+            "mode": 420
+          },
+          "attribution/libremines/LICENSE": {
+            "bytes": 34451,
+            "sha256": "adb5b41b4303234b76d4327ed10e28465bd4558c553afeb208f166469cc20759",
+            "mode": 420
+          },
+          "attribution/cataclysm-bright-nights/MEDIA-NOTICES.txt": {
+            "bytes": 584,
+            "sha256": "66f4e181b97ea07bfd3f91110e4c003da419aed130ab518a379bd72f65136c94",
+            "mode": 420
+          },
+          "attribution/armagetron/COPYING": {
+            "bytes": 18092,
+            "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+            "mode": 420
+          },
+          "attribution/armagetron/AUTHORS": {
+            "bytes": 1978,
+            "sha256": "0eed2d2909d916acf0eece9cac404be5ffeda9c1719827e2e2c05c9644701d4d",
+            "mode": 420
+          },
+          "README.md": {
+            "bytes": 2200,
+            "sha256": "539538db0a5e696abe5f0ff156805bd9781c1839e44cc2824410594e021b4411",
+            "mode": 420
+          },
+          "tidycade-ubuntu-x86_64": {
+            "bytes": 22311536,
+            "sha256": "18cdc353e0c927fe799bc046d0a5115356ab1c5c11cde1d132440a50cd178f68",
+            "mode": 493
+          },
+          "RELEASE.json": {
+            "bytes": 241,
+            "sha256": "6f8c4dc03b3013bdc6fec040208993b468456812cc0c41cbcc7706aa38014490",
+            "mode": 420
+          },
+          "install-desktop.py": {
+            "bytes": 1663,
+            "sha256": "55fff93034fd31bce2286727692772214f5419f5e3c047d0aef99bee1403bfa9",
+            "mode": 493
+          },
+          "icons/tidycade-16.png": {
+            "bytes": 574,
+            "sha256": "7bb3ad40dd15dbdd3e421eb962bf97e1eefa8713829ee709bda018be9d21f06f",
+            "mode": 420
+          },
+          "icons/tidycade-32.png": {
+            "bytes": 1194,
+            "sha256": "3bc1f4e5c003f1caecd0c855440edb6b28af5c18ad7d6778654beefc4b85e7d1",
+            "mode": 420
+          },
+          "icons/tidycade-256.png": {
+            "bytes": 9936,
+            "sha256": "c7c441161a528de5481868156f8493da8bef06a9e76f319808622eeecf923616",
+            "mode": 420
+          },
+          "icons/tidycade-48.png": {
+            "bytes": 1814,
+            "sha256": "63fbdac7d8fd1da87d783c3893d2abc987df96012b786051bfd9f83794dfae34",
+            "mode": 420
+          },
+          "icons/tidycade-24.png": {
+            "bytes": 871,
+            "sha256": "da3330eacd6de145fba9b19754524a48bc4799587b327ca608a05e88d624d26a",
+            "mode": 420
+          },
+          "icons/tidycade-128.png": {
+            "bytes": 4920,
+            "sha256": "5910caac81147c225d8e17e63a123a96a8b0cdb1af5b05760416c76cb4e701fd",
+            "mode": 420
+          },
+          "icons/tidycade-64.png": {
+            "bytes": 2485,
+            "sha256": "cdc7717ef66708623f21b3399b042cbc8d0d64968c1d3b8f81d22a83d385aac8",
+            "mode": 420
+          },
+          "icons/tidycade-512.png": {
+            "bytes": 20144,
+            "sha256": "e8f38c44eb16d1bbe6d981f0ffc95c2915c91a6fe4cb2f4d9b65cecb8f781528",
+            "mode": 420
+          }
+        }
+      },
+      "windows": {
+        "url": "https://github.com/BaptistSec/Tidycade/releases/download/v0.15.0/tidycade-0.15.0-windows-x86_64.zip",
+        "bytes": 26865655,
+        "sha256": "7f98c510096677e48fca8f40999fe8dd4eed148dce40d4d8279ec18950983a67",
+        "root": "Tidycade-Windows-0.15.0",
+        "entry": "tidycade-windows-x86_64.exe",
+        "files": {
+          "LICENSE": {
+            "bytes": 1072,
+            "sha256": "1c523aa081eb114d0db7d91d2e81fb951d2127d69e1205f6a7ae16aaa4d3c61a",
+            "mode": 420
+          },
+          "LICENSING.md": {
+            "bytes": 1233,
+            "sha256": "d8da8b521a56f0cfdfd5ef878dbbab06a3823212713ce56ad1402e6647faf61a",
+            "mode": 420
+          },
+          "third-party-sources/SDL2-2.28.4-win32-x64.zip": {
+            "bytes": 822803,
+            "sha256": "c247328b6e310a26188770948b9d48cc6a3b6bfe899a1e4e358baede6976984e",
+            "mode": 420
+          },
+          "third-party-sources/SDL2-2.28.4.tar.gz": {
+            "bytes": 7344208,
+            "sha256": "888b8c39f36ae2035d023d1b14ab0191eb1d26403c3cf4d4d5ede30e66a4942c",
+            "mode": 420
+          },
+          "THIRD_PARTY/zstandard-0.25.0--zstd--LICENSE": {
+            "bytes": 1549,
+            "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8",
+            "mode": 420
+          },
+          "THIRD_PARTY/libexpat.so.1-copyright.txt": {
+            "bytes": 1756,
+            "sha256": "60919fe1a156395ff14511bb6ff79756c50ade2fff59ac60c9bae1d8a7fe6292",
+            "mode": 420
+          },
+          "THIRD_PARTY/libcrypto.so.3-copyright.txt": {
+            "bytes": 2543,
+            "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-Ubuntu-config.h": {
+            "bytes": 14399,
+            "sha256": "b3d5c88f5ff8bd515d33c80f2238ae73bedc0dc400818cb23a66236277a89c28",
+            "mode": 420
+          },
+          "THIRD_PARTY/libz.so.1-copyright.txt": {
+            "bytes": 2920,
+            "sha256": "d77204eee882807240f6351c4f5ae2a4bcdb5b773ff77d10647b9b66b826b2fb",
+            "mode": 420
+          },
+          "THIRD_PARTY/CPython-3.10.12-LICENSE.txt": {
+            "bytes": 13936,
+            "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+            "mode": 420
+          },
+          "THIRD_PARTY/zstandard-0.25.0--LICENSE": {
+            "bytes": 1484,
+            "sha256": "788fe85e53724a40b299051c4abc9cf74d42b27e7968325b80891c25f79adb4b",
+            "mode": 420
+          },
+          "THIRD_PARTY/zstandard-0.25.0--zstd--COPYING": {
+            "bytes": 18091,
+            "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505",
+            "mode": 420
+          },
+          "THIRD_PARTY/Apache-2.0.txt": {
+            "bytes": 10175,
+            "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+            "mode": 420
+          },
+          "THIRD_PARTY/libssl.so.3-copyright.txt": {
+            "bytes": 2543,
+            "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-PROVENANCE.json": {
+            "bytes": 570,
+            "sha256": "71806144e9afbb861cf963a1a77ef4df900a902783ff1c3a2c6931589e4c688c",
+            "mode": 420
+          },
+          "THIRD_PARTY/CPython-3.12.8-LICENSE.txt": {
+            "bytes": 13936,
+            "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+            "mode": 420
+          },
+          "THIRD_PARTY/NOTICES.md": {
+            "bytes": 2965,
+            "sha256": "52de120f9847660b1f941e4c030752520efc3d0e0b0c47f5bed3257cf08dee7d",
+            "mode": 420
+          },
+          "THIRD_PARTY/libpython3.10.so.1.0-copyright.txt": {
+            "bytes": 49855,
+            "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-yuv2rgb-BSD.txt": {
+            "bytes": 1480,
+            "sha256": "f7d74004cc75778cae46c5f0139f244d67c07ef64cf51937e8272352197dcb18",
+            "mode": 420
+          },
+          "THIRD_PARTY/Windows-Python-3.12.8-LICENSE.txt": {
+            "bytes": 36874,
+            "sha256": "e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-HIDAPI-original.txt": {
+            "bytes": 264,
+            "sha256": "fb5436aa63d1b71a8dfbf74ecaf1a5b4e1ec4df7f80074d11fec99284f69ca5f",
+            "mode": 420
+          },
+          "THIRD_PARTY/liblzma.so.5-copyright.txt": {
+            "bytes": 15465,
+            "sha256": "a2dc8fac0f496e1c58aff67018cf0c6b88336316afa5642f9335b71642e28aa8",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-HIDAPI-BSD.txt": {
+            "bytes": 1534,
+            "sha256": "30eb1bef29b46f8ba7ab8b416035dbd93cb034a45481dd97815b944284582cd2",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-2.28.4-LICENSE.txt": {
+            "bytes": 884,
+            "sha256": "9928507f684c1965d07f2b6ef4b4723d5efc2f6b4ab731f743a413c51c319927",
+            "mode": 420
+          },
+          "THIRD_PARTY/libmpdec.so.3-copyright.txt": {
+            "bytes": 2348,
+            "sha256": "be6dc763ac497102bbece71c0a83619ff538fd8e0ad43b8990c91bf323046228",
+            "mode": 420
+          },
+          "THIRD_PARTY/SDL2-Windows-README.txt": {
+            "bytes": 433,
+            "sha256": "f17d8919136f9627468b4dffbd7bddd188ef2aaa8ed21914d2107d1c759e99d7",
+            "mode": 420
+          },
+          "THIRD_PARTY/PyInstaller-6.22.3-COPYING.txt": {
+            "bytes": 32604,
+            "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64",
+            "mode": 420
+          },
+          "THIRD_PARTY/libbz2.so.1.0-copyright.txt": {
+            "bytes": 2228,
+            "sha256": "832ed535ff3c3d025a8d2348eb1b697b89addcf2eaadbc17650262040b9145e2",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libx11-6-copyright.txt": {
+            "bytes": 47102,
+            "sha256": "0b380a7fd5b2228f26e9585e56f14812efd3350f3df307507d2bc055dfd8de3e",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libpng16-16-copyright.txt": {
+            "bytes": 13341,
+            "sha256": "b2d88c45221e2016a5a0bb98406b45faf911f1aff87242eec12af05abae1de0a",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libfreetype6-copyright.txt": {
+            "bytes": 25162,
+            "sha256": "992b869abf2c114288dafb51c37f19c0afc3455477b9d589371d45ad214a8b07",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libbsd0-copyright.txt": {
+            "bytes": 25649,
+            "sha256": "3761714adb9c45fa588b77b372d6e75dcc9e6822cc2d6baa712007241aec714e",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxdmcp6-copyright.txt": {
+            "bytes": 1265,
+            "sha256": "1bcbb50f8603fe8b86d330bfa460b772ea04fbd3c70e4499f0768b5340b9fd6e",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libuuid1-copyright.txt": {
+            "bytes": 23045,
+            "sha256": "2c447817698777e3b2365a5afe2a58ececb85367dfdf0ea2c0df49add90e93eb",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/Windows-Tk-license.terms": {
+            "bytes": 2307,
+            "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/blt-copyright.txt": {
+            "bytes": 11606,
+            "sha256": "8ffa1d05f43fd7ba7d115c92bce8aed16c8e195fa59a33a4bb9093169c64876d",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxss1-copyright.txt": {
+            "bytes": 2679,
+            "sha256": "3ebbe713ac6980aefc18dcf407c94f51bbf02852463294bbb6dc1ee1f9fad9c3",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxrender1-copyright.txt": {
+            "bytes": 2252,
+            "sha256": "ed2a78123a5076b4f11da38cb1ffb85b5cb9fdc26b5746c517b1d7e7a9029704",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxext6-copyright.txt": {
+            "bytes": 10421,
+            "sha256": "bc57e445ca1d9fe082c8d54189dd411ff26caa8552c9c63d44ea06a982f32124",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxft2-copyright.txt": {
+            "bytes": 1438,
+            "sha256": "5960983c962c864d7d73eae6bb9b3b06c1940a23fc6d22ce10ef0f0cde8fd48d",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/Windows-Tcl-8.6.15-license.terms": {
+            "bytes": 2255,
+            "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libffi8-copyright.txt": {
+            "bytes": 3440,
+            "sha256": "7258c8acc378030d8dbe1fcdf394e915769fa31dcbaf3d2991d9a79891f3bcdc",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/RUNTIME-EXTRA-NOTICES.md": {
+            "bytes": 2108,
+            "sha256": "182b40e1b2a03b86967523ad98e15ab87321b7d45111809c6187b0e932423458",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libxau6-copyright.txt": {
+            "bytes": 1224,
+            "sha256": "118dd263a7b91c8f21c489f949bf13281dff9e766deea92b829dac4dce66601a",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libfontconfig1-copyright.txt": {
+            "bytes": 1301,
+            "sha256": "b215a61cdd3e62b5b17cc28b1852c78acb3dd38be0fb30706f7efc050dba91db",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/python3-tk-copyright.txt": {
+            "bytes": 13992,
+            "sha256": "183860dfd4168e0608fb99fe53cef26088ba7275ce38a41e3c737d4217c0ccc1",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libtk8.6-copyright.txt": {
+            "bytes": 3657,
+            "sha256": "55756939bc322e1ddb187794a0deb8bdf72349ecba34b429446782cd04ea4cef",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libtcl8.6-copyright.txt": {
+            "bytes": 7062,
+            "sha256": "e925aa8863f0c9eda3625ce2cb16c0d5017fca248c5bd6af97006df5d9c6199c",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libmd0-copyright.txt": {
+            "bytes": 8018,
+            "sha256": "4365ef6255ad553fce69dd4bc0e093472c5d0e41b8ea493a545cc926ce171aa6",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/ubuntu-packages.json": {
+            "bytes": 570,
+            "sha256": "770616d8c396978a107219c1e48e40fe1b5b5d1dcfc334c14fdb3693bff329ce",
+            "mode": 420
+          },
+          "THIRD_PARTY/native-panel/libbrotli1-copyright.txt": {
+            "bytes": 1354,
+            "sha256": "24a64e5bb83d0960d1835696a1e23c0896ad6055b0ca47c66ab0eb9a766324b1",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/COPYING": {
+            "bytes": 25310,
+            "sha256": "760b9939aba6906f39175ec0effdb645190325b8ebf8a25350fa720a6b10bde2",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/Credits.lua": {
+            "bytes": 4207,
+            "sha256": "aeb5a91eeb80c19ea9d7cce3cffb2d35fd72c3702debed49463e4e3d6bb39a90",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/FILES": {
+            "bytes": 1639,
+            "sha256": "fce5aff10751ff93df681fdfb4d93a95a713facec88d0ea4703ceb9021a06e17",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/README": {
+            "bytes": 14592,
+            "sha256": "122ad7f0c70409e1a6d9e67d0397d2fe65ecf37df051083d47119a5bb0d9cdb8",
+            "mode": 420
+          },
+          "attribution/freedroidrpg/AUTHORS": {
+            "bytes": 102,
+            "sha256": "76e4f3f53184f7bcbe45533c6d8b71701972289692b8ce7b6403f2dfb568acb5",
+            "mode": 420
+          },
+          "attribution/warzone2100/MEDIA-NOTICES.txt": {
+            "bytes": 470,
+            "sha256": "b4f055a0c65fc84dc0f363d6e748463f16afad917de74ced224db1095ebad8e4",
+            "mode": 420
+          },
+          "attribution/lugaru/README.md": {
+            "bytes": 3134,
+            "sha256": "6f88ac4cd80534cb34effc8579ac1db2a5ab62c27e644de2deaf1eabe32d9273",
+            "mode": 420
+          },
+          "attribution/lugaru/CONTENT-LICENSE.txt": {
+            "bytes": 1650,
+            "sha256": "df020520630390de59394235a90a17c5d52d3b80ef76e2edf6d0690cd8b7fd7c",
+            "mode": 420
+          },
+          "attribution/lugaru/COPYING.txt": {
+            "bytes": 18092,
+            "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+            "mode": 420
+          },
+          "attribution/lugaru/AUTHORS": {
+            "bytes": 288,
+            "sha256": "bf7ad7e3da65d31e09f6df6bf80fab073c4fd41c9b96eaa79aa01505d590e238",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/README.md": {
+            "bytes": 2005,
+            "sha256": "4857ab6e1352dd5838c7869c6ebde3333dc7def4d1c69420701c70868a6398fb",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/COPYING": {
+            "bytes": 35147,
+            "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/COPYING-ICONS": {
+            "bytes": 9372,
+            "sha256": "d0ad9040e5e12c8705687cc46aa48e83f47a426869e1f776d7f1bbffcd92824f",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/block.cpp": {
+            "bytes": 12676,
+            "sha256": "647ca5079a513e23ee18c0872e25109c77a99eef79ccab40cdfccc626b22e1e8",
+            "mode": 420
+          },
+          "attribution/iqpuzzle/board.cpp": {
+            "bytes": 25039,
+            "sha256": "c7529cbbacff1f3eec11f2ce5d750a7c75f5548654fd51dfe28a7c688fb8a3cd",
+            "mode": 420
+          },
+          "attribution/decoder/zstandard-0.25.0--zstd--LICENSE": {
+            "bytes": 1549,
+            "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8",
+            "mode": 420
+          },
+          "attribution/decoder/zstandard-0.25.0--LICENSE": {
+            "bytes": 1484,
+            "sha256": "788fe85e53724a40b299051c4abc9cf74d42b27e7968325b80891c25f79adb4b",
+            "mode": 420
+          },
+          "attribution/decoder/zstandard-0.25.0--zstd--COPYING": {
+            "bytes": 18091,
+            "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505",
+            "mode": 420
+          },
+          "attribution/principia/LICENSE.md": {
+            "bytes": 1373,
+            "sha256": "4673ac7f2a3374b22d89351e9ffb25921ecd32bd42a22da3bea453eae5970b1b",
+            "mode": 420
+          },
+          "attribution/principia/README.md": {
+            "bytes": 2228,
+            "sha256": "b78bd293aaf3af689d5b5110f599f62baea1fec28d5e331f895f24dba558d869",
+            "mode": 420
+          },
+          "attribution/principia/Roboto-LICENSE.txt": {
+            "bytes": 4487,
+            "sha256": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410",
+            "mode": 420
+          },
+          "attribution/principia/GloriaHellelujah-LICENSE.txt": {
+            "bytes": 4456,
+            "sha256": "179d94a7a42ce98cc0ef2bfad604b77e9b0a9cc03e6a9ae8844844e3028d04b2",
+            "mode": 420
+          },
+          "attribution/principia/AUTHORS.md": {
+            "bytes": 382,
+            "sha256": "24ab563f8cc9eb8d028e39e441c925fc8c7a09c1392e0b25ecddf39255907c80",
+            "mode": 420
+          },
+          "attribution/principia/SourceCodePro-LICENSE.txt": {
+            "bytes": 4473,
+            "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+            "mode": 420
+          },
+          "attribution/luanti-voxelibre/MEDIA-NOTICES.txt": {
+            "bytes": 3352,
+            "sha256": "65c2366ab1a7c8058070c3d5ed681bd77d26ec84ac639fc9019c7156b7f74d40",
+            "mode": 420
+          },
+          "attribution/pegfall/SOURCE.txt": {
+            "bytes": 374,
+            "sha256": "da533a8cff3c0a70c27adc4b808cdba77f464c7516efb2f5ecd3bd73eb19b5ba",
+            "mode": 420
+          },
+          "attribution/pegfall/LICENSE.txt": {
+            "bytes": 1067,
+            "sha256": "2b5c52cc9ce13a4f61fa663092e80b93d3dd18fcb3ec1544f198e2ba5273ee22",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/THIRD_PARTY_NOTICES.md": {
+            "bytes": 4480,
+            "sha256": "d8f4ff8f18a57b1f0d0f1d18da10bab67556e0b92f139e729d7d9917cb2f1dec",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/SOURCES.md": {
+            "bytes": 2139,
+            "sha256": "cc32b757c97538b5b2bb5dcd11ae4bd3e9c49bcce8d692a2ae3110c7a3d45613",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/GCC-Runtime-Exception-3.1.txt": {
+            "bytes": 3324,
+            "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/OFL-1.1.txt": {
+            "bytes": 4414,
+            "sha256": "93fed46019c38bbe566b479d22148e2e8a1e85ada614accb0211c37b2c61c19b",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/Apache-2.0.txt": {
+            "bytes": 11358,
+            "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/PSF-Python-3.10.txt": {
+            "bytes": 13936,
+            "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/zlib_license.txt": {
+            "bytes": 2895,
+            "sha256": "cf933153e9a60533c56fd1dcd555b15bff9a81c3468b5df1dc99aa7866c8b5fd",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/GPL-3.0.txt": {
+            "bytes": 35149,
+            "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/FTL.txt": {
+            "bytes": 6743,
+            "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/SDL2-LICENSE.txt": {
+            "bytes": 884,
+            "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/LGPL-2.1.txt": {
+            "bytes": 26419,
+            "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+            "mode": 420
+          },
+          "attribution/pegfall/THIRD_PARTY/licenses/GPL-2.0.txt": {
+            "bytes": 17984,
+            "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+            "mode": 420
+          },
+          "attribution/xmoto/README.md": {
+            "bytes": 6322,
+            "sha256": "437c25fc5ab07b966113db901facffeb8d72fdbf8d4fcb69da24e7ffbe7e92fa",
+            "mode": 420
+          },
+          "attribution/xmoto/COPYING": {
+            "bytes": 17992,
+            "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670",
+            "mode": 420
+          },
+          "attribution/teeworlds/DejaVu-LICENSE.txt": {
+            "bytes": 8816,
+            "sha256": "7a083b136e64d064794c3419751e5c7dd10d2f64c108fe5ba161eae5e5958a93",
+            "mode": 420
+          },
+          "attribution/teeworlds/BUNDLED-FONT-NOTICE.txt": {
+            "bytes": 4765,
+            "sha256": "f1d7e97481cf4ac81f2d3ab8b14a483fb34b0b4824a3f8d2b1c70a6fa86a3b08",
+            "mode": 420
+          },
+          "attribution/teeworlds/LICENSE.txt": {
+            "bytes": 1724,
+            "sha256": "939b8a48a53be9aaa0b1774117ddcd6a9d3c3a395b8e209b6de0b465317b5e6f",
+            "mode": 420
+          },
+          "attribution/0ad/license_gpl-2.0.txt": {
+            "bytes": 17987,
+            "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6",
+            "mode": 420
+          },
+          "attribution/0ad/upstream.sha256sum": {
+            "bytes": 93,
+            "sha256": "975257f26900cfd4c1460524cdc8b0c02df0c2f225852a4a0f746d10bc0465a5",
+            "mode": 420
+          },
+          "attribution/0ad/LICENSE.txt": {
+            "bytes": 3049,
+            "sha256": "cb9eb5e8768328e8086b0d17bd1b95f07b51bc9ab74fa1b509ee09c7894b2f53",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/mod.json": {
+            "bytes": 193,
+            "sha256": "a5cf63a85c0e40afbcacc1eb56c8f9c5852166104ee946a603873c29fea86573",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/maps/random/LICENSE.txt": {
+            "bytes": 1499,
+            "sha256": "7b8d340060f8b06c5ffbf4c81d88800406ca5e57025a8bb851a27a13dcb971a8",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/art/LICENSE.txt": {
+            "bytes": 1426,
+            "sha256": "ef98babd771c206032e005f3d440a1e610df409d9a9191f03e64deaa4abefbd9",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/art/LICENSE.txt": {
+            "bytes": 837,
+            "sha256": "e510c9cc5d55516ae6624921e6e977aa57a75ceefdb7315b5108f5a33fcce38f",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/DejaVu-LICENSE.txt": {
+            "bytes": 4814,
+            "sha256": "a6ed0d41ebee3ca53d22f4d55be20d64291a4f5fa8e303468839993343a830eb",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/LibBiolinum-LICENSE.txt": {
+            "bytes": 1308,
+            "sha256": "eb79f0ae27d4f907f556e82756a4b31251270556c8d068fa72d70bfa283b6421",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/FreeFont-LICENSE.txt": {
+            "bytes": 1298,
+            "sha256": "47cf78711b03e3096809878b4cbb049ecf46fa4fbb0cfa77bf99fc2ed53c1dd9",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/source-han-sans -LICENSE.txt": {
+            "bytes": 4463,
+            "sha256": "f55c2d43dd905011515f5e46ba78d180027e314ef8ccaaf53a9e88fe316767cd",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/fonts/LICENSE.txt": {
+            "bytes": 418,
+            "sha256": "bcbc6f2a53c0ca92820800b251e130a714c750e1299db0dbe5da10c0d611febe",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/base-mod/audio/LICENSE.txt": {
+            "bytes": 837,
+            "sha256": "eeb9914f42e7a3ab6e8e9b7b46e57697ba44e7b7a4d2a1c990bd19ebc9535e94",
+            "mode": 420
+          },
+          "attribution/0ad/exact-package-notices/audio/LICENSE.txt": {
+            "bytes": 836,
+            "sha256": "dabb2ee881522112ee70539aec179f3a639b8fc58e6a7ca06df2791fabd51537",
+            "mode": 420
+          },
+          "attribution/unciv/DesktopLauncher.kt": {
+            "bytes": 6941,
+            "sha256": "0e44a93114e18b33b9f9dba94d928552c89e8d093a86cf823e97ccedaced5867",
+            "mode": 420
+          },
+          "attribution/unciv/LICENSE": {
+            "bytes": 16725,
+            "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+            "mode": 420
+          },
+          "attribution/unciv/Credits.md": {
+            "bytes": 75694,
+            "sha256": "e3f3e4fbb15d90978879bb114d0620bf5a207b1a9a6198484c888755d175001a",
+            "mode": 420
+          },
+          "attribution/libremines/README.md": {
+            "bytes": 7679,
+            "sha256": "606f3834e7b3552135475a2276bb151633bd70f621ff36699c98241f6bab3d83",
+            "mode": 420
+          },
+          "attribution/libremines/share-minefield_themes-README.md": {
+            "bytes": 2555,
+            "sha256": "efe0288d61b5c1645c2323064c3bf913ab8bea2c328b4950a8455820e7cf8345",
+            "mode": 420
+          },
+          "attribution/libremines/share-sound_effects-README.md": {
+            "bytes": 411,
+            "sha256": "4060226ceff593efd487eb909a98d95307b790ca1b8365426595722949521bba",
+            "mode": 420
+          },
+          "attribution/libremines/LICENSE": {
+            "bytes": 34451,
+            "sha256": "adb5b41b4303234b76d4327ed10e28465bd4558c553afeb208f166469cc20759",
+            "mode": 420
+          },
+          "attribution/cataclysm-bright-nights/MEDIA-NOTICES.txt": {
+            "bytes": 584,
+            "sha256": "66f4e181b97ea07bfd3f91110e4c003da419aed130ab518a379bd72f65136c94",
+            "mode": 420
+          },
+          "attribution/armagetron/COPYING": {
+            "bytes": 18092,
+            "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+            "mode": 420
+          },
+          "attribution/armagetron/AUTHORS": {
+            "bytes": 1978,
+            "sha256": "0eed2d2909d916acf0eece9cac404be5ffeda9c1719827e2e2c05c9644701d4d",
+            "mode": 420
+          },
+          "README.md": {
+            "bytes": 2200,
+            "sha256": "539538db0a5e696abe5f0ff156805bd9781c1839e44cc2824410594e021b4411",
+            "mode": 420
+          },
+          "tidycade-windows-x86_64.exe": {
+            "bytes": 18697196,
+            "sha256": "2e995d9ce89714badb4878fad1ca2dd04c5c446fef000140445e1d075f6124d4",
+            "mode": 493
+          },
+          "RELEASE.json": {
+            "bytes": 242,
+            "sha256": "1d4b7b35439347359f0cd2ccb4e894df7bad35297e7e53c3ed022cec0a110441",
+            "mode": 420
+          }
+        }
+      }
+    }
+  },
+  "signature": "0dqoiyNkb2N2spPg2XSWSHoHsUzZqMC/9JQQhg1mXsvpi3f0DuTWBHgO7lkrLK1EqiGNS4bKq4Z4RgxSeIA8fs9bbcW3gdiTZBg8IVx4hv4J3uf8GXDegcvrwF/TPnuZ+jipMpjkc/3ICaNyynw9smLyHRPmNpCcFCD5saa5z36htaObuQRukrPXqMvqC7slhxB8AoIEDlVlRQ5GS8jfkXbu/TW4CkRHABhj4YYwJWNd9evFycQ68Tkln7Dx/k/DfWht/V9lCLxbh/uLmjfHK8wB/aP932CGwRY1G5+zUQ8eowh/h5gValuqljArH7ssMjJDqOpTWMNgl4INX2UxFTplhHbCgEaEMnHnRNn1VuuNWOfYzhet1dTa0X2m4M/aenuIvd46FfdtTV/gpJVpxEgR0ocdIhQf2yklIDp7NESzhNLprq0bi6mnlp0Bj+KcAhkqfpC1Nsx/MsTpJ8pM1tW+VK7PHwbUGZcvIjxvaqTXpkOZcVnYdHE9j9towZUM"
+}
