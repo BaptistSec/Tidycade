@@ -1,7 +1,7 @@
 {
   "schema": 3,
-  "revision": 70,
-  "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-70-angband.zip",
-  "bytes": 20787635,
-  "sha256": "b11d7e18df3f0c405795d304f388c4056c927facefff673a1aa0f656f33e8032"
+  "revision": 71,
+  "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-71-angband-compat.zip",
+  "bytes": 20787636,
+  "sha256": "d10c18c36b97c912c77be847bda16e581672d767b2ecf02b970e83474a8f89d4"
 }

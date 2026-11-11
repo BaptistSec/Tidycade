@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 70,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-70-angband.zip",
-    "bytes": 20787635,
-    "sha256": "b11d7e18df3f0c405795d304f388c4056c927facefff673a1aa0f656f33e8032"
+    "revision": 71,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-71-angband-compat.zip",
+    "bytes": 20787636,
+    "sha256": "d10c18c36b97c912c77be847bda16e581672d767b2ecf02b970e83474a8f89d4"
   },
-  "signature": "J/qYe+3A8nznWV191RabquqO2fNYP3S7Cnrg47rnXz1CCguZdMl4pxN0J1DVoqU0Vs6UeE0uYb0lce3Yk+7KSLFo9ZPt5V2svHx2OdGLGLwYhLJhFkmI6bvsBD7VDfy5PGuy63zX5VJSOpRfsGzCM7IUd0TD1251H+8VegL4mi1ogvDX1RL7xUiVrSDNhO1vEuE4Wi/bSzTf7RqUmar3SARS1SRg75+6dHjrilvzu8cUyKQnlCNcfIPlaJwi8SzNYBtx1ft1/rZJVS9+yel6ohw9FqtwDd2SiU9VCJ+dAjbf8Mk5F84K6SRkvjO/et3H91gRygO/9qsF62CWUa5p8zM9Z8SWpmi7KCxG+PIurrVUjhEiSl31CkRhafm8Qmf6o902+gwa6NjqG9mXbmjU5lynLD1qyH9t5qJOeQ2URATjDnYG3CkaR8TVWGn6PlY4YZMantpDqa/ChMiRX49i/nfe9cfROWe5W4wHF5AaPWp1DvjAn8G4CYcVrlWdVkh3"
+  "signature": "QVumVSGjQSe6xAQqaieRdw3vpEMaI4FokayhEvv4okYCibrgzW3fLhLVBXOxdvuqs+UFxPLChmL2e5U10XlLInMq6bkwfPgHVK5Dg0ib4qjKeVD/PEAU44bh/quKiGDt5L6eB3uOYooY/wZt4JjLGwu8QI2b1VAbF4h3sfD5xQpEfpmd6697oFYQt9n2LjdHlB77zPSKz9XBrU1ZS9YIrQJ4K3j28ZVQ0W/HOp47X2ZrNm9pnNNOTB4FB96+EbcTwEdtYHr7iNee6+VqnhphVzr7GSp8ASN7P/G5dSG36yCytxhtsoWpc6mEsM5EkJhUuuNjoKgHrX09QQ2Pa6FbS7jIbTTUhZ4FprLXMZe99AZTWvo1DMyC2v7buG6ZocSrrYONFF7Dk1feR7tqLm0fLPuECtAF/55SSXlue8j+1UwLmV4+ksezHEWWXaNHxpgEOYEzQnyqTEayX5G+8t/6kcXYISLdvFhf65GBhC7LzoLLeYht1mu63zPUmBTMq0Cs"
 }
