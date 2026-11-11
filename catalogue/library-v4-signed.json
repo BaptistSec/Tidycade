@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 67,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-67-dcss.zip",
-    "bytes": 20620740,
-    "sha256": "79c3d53a3b528bd00a2980dda48e9ac167c7590aafc13e4090f55d779fc8f66b"
+    "revision": 68,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-68-pioneer.zip",
+    "bytes": 20651693,
+    "sha256": "d7ada1c74012bc6dd280bc798d95bce80dd3a9e3065c44fc29ba6a1869acb95d"
   },
-  "signature": "Gr9WvcDaOJX7VKBlfUcoOmxFD8rdTAV84dHf3hOPGXHgG2PH6n+GDqlZD82D4C7ry39weQjkMgIxIi7ZoF9rdg0Mkz6MbwVOJtb04joYR5Ewqdq0MbYalE8xTKD0cWDNXGvIh3ILBby7WdeftWwooDlPMn68LNOUs0gfQy+CQ+88a8lMm7cRpA2NHgdexkZngDr25cabPpk9un6yDMpnZi9RuZvVWzLPGSexdWthJg3zikQ8MQW4HEsFblBzLlRQpexsVBp+w6pbiOelCeOKfEAV8cZVEBPmGTxpf7y3bHRk+GzZzJZZD0lrhMEWa7VbJlApg5LGqCLSBhi6yW5QTheDSGRsWrNNAP3aRglrm5aUeVSd45AjeD+QYCmPDvuiG7hVdC0ovszpkaxRYLfDyvIqkiBwowgKWcSCUNespeCjyAY1MsG0oIB3ZGX6Uus/1iOXhNqiAsryviYImwYr5cdoMkqQujnGAD1XIOqvhbAYzW0hbDjNUvJbAwNby6Gn"
+  "signature": "JvsqDn7CPBtPaLRVTTx/JwWDzQcPf+QSa4qK2T52yBcti4B1YRD1mNcOQ5C1jMQEggHioTARqBdRecV+5CYLc2SNDD90RvVC4xfsPsdoALMHAo6w6fEImvJexVL8hXJismQiEfqKmDrxEOAlBBPdWrfFbMsuqUvUJNOWZEWrClYcZm7qkV1bu8tlTjzs53a/dfLEg/frtLwMuZkDyHf3AbS7sfy0GpECmd71f1Jb35RoM3y1s1gb6RSqzth7HM5+zvzmIM1yeyhfjDmXI2t6yN8hTUmAnxUxWIF96BZ4TmwuUE7iS5iZjUtua39CN9khCsxmPfhCY+QETK6y3vk2VZEj51KkCSCbkHKoD80o/5rzCQ+iFgyY/tdjWwRsvcoxlOnNlMLif8ombA05vgcigKk0J9Sk7hMwBTgz7lfX/vDhjMTl7PZy6wg4BGnUIKPRSKmXyEJDndCQLY6CRGYK5fLLu9g4Xi99Mkvy8k64hNeRjJylm8s3J3iee8uUUI60"
 }
