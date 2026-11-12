@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 72,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-72-simutrans.zip",
-    "bytes": 21196979,
-    "sha256": "557d575d8e32e5451ec27e6529466a6098701b5e27160448c73e1b13b6d73c7d"
+    "revision": 75,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-75-oolite.zip",
+    "bytes": 21426380,
+    "sha256": "04a4844a9e3a5c505693b683a98c1c423b8d874dab7f014fd73f42c81d1d30c2"
   },
-  "signature": "FYT/2ziga2zR61Miw0Rw3Rih0ylDn4TtnUQDZb/zcB8BEu8OHFS0qO+j3gy91tS0sl6fflzGlX7SazD7GzLO+wgMosZNEN5AhUopYtoJ3wf8b5obWJ8biOVOFKWUko45/HtWrBLjGAk/FMs0sQ1pPx4Ww1yiIwP6n/HOmHfy6cAAoY/+ynj2wuEEkegJsDoFvo888gT0OzDYjxBACZHuBpaylcSZjZxBNBdENUgJOLGZw/ZXcdr2S6Fdb0vYSc/Ir5Cfn31D+5R3Mb3pWwsf5W5sTB9BWUNMjL4gGHzDMXMUxtk1qtnE8xlb6iOmfy02SScmjLBPTQdTL8LIs19kLTnn2FH9S3h700oZm9VkWdiKm6VKG4ZldWPqgjh2z1IfyItf0cuetA3T5lEtLi6GW9TU1kOOi5bwFheCuy9ddV6SXA4RjsWsU+TR8LEqrys9qduOogU4YMD6LnibEmCDkawffy7ATtP+ylR/ZDD44Bfu+dW/8wEMzmEJFbiIrRuJ"
+  "signature": "j0NsOid8RNFhTwk5taw9Xo1MaZ/ryBQiQB/0ITzj8yBOUIl3nxtp7INskCXJkWe4S8ejhLnDYby6fa5mJt5pXM1yXWaoaXlrldb383KgfgaMcLdEw1tzPGNXPtIAlYP6s3KqZGVSGOj4C4FBXd81efMrbtv7Ri+kklWys2mtJe7PGVNlAfL1mM3ItXBI826KlqWHVSfwxk6BmE1Ovm+4bYjqOrPVXpzivinf5ZJYIpTkGJGkTe8FHox1deBjNog76Oxl0B/j40VC1eNf2qMBVapc12AnWEPMALFBYU5XoI39iS5iFaGcq7ONrTpnT+gub8CKyh1TOFg2WrujRg1pqNMPXhKroKKiOuffN6aOjOY6PsgVYtY+Cdli49qENKBqzMmoMyfISkE0yLiUBsAB9M2carVpkeydoZQu5TpYOIJsROP/fVitwJt0q+hQCOHCP7qvGuJ6yAs59B5cUMwBo0DjiAnw6YqEJt7/9qdxE1xL26+QNn7TWDV9aznDXbYf"
 }
