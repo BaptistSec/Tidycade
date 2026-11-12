@@ -1,89 +1,44 @@
-<h1><img src="branding/lock-dark-512.png" width="48" height="48" alt=""> Tidycade</h1>
+# Tidycade
 
-Browse free games. Install the ones you want, then play. Games download separately.
+Browse free games, install the ones you want, then play from one library. Games download separately, so you do not need to download the whole collection.
 
-## Official 0.13.0 release
+## Download 0.15.1
 
-Windows and Ubuntu share the same launcher code, visual game-card interface, version and TC application icon. Native controller return and guarded game switching are now included alongside keyboard and mouse. Platform game availability still differs.
+| Your computer | Download |
+| --- | --- |
+| Ubuntu 22.04 or later, x86-64 | [Ubuntu archive](https://github.com/BaptistSec/Tidycade/releases/download/v0.15.1/tidycade-0.15.1-ubuntu-x86_64.tar.gz) |
+| Windows 10 or later, x86-64 | [Windows ZIP](https://github.com/BaptistSec/Tidycade/releases/download/v0.15.1/tidycade-0.15.1-windows-x86_64.zip) |
 
-| Computer | Download | Current library |
-| --- | --- | --- |
-| Ubuntu x86-64 | [Tidycade 0.13.0 for Ubuntu](https://github.com/BaptistSec/Tidycade/releases/download/v0.13.0/tidycade-0.13.0-ubuntu-x86_64.tar.gz) | 50 games after the online refresh; 25 in the offline fallback |
-| Windows x86-64 | [Tidycade 0.13.0 for Windows](https://github.com/BaptistSec/Tidycade/releases/download/v0.13.0/tidycade-0.13.0-windows-x86_64.zip) | The existing 14-game Windows catalogue |
+[Release notes](https://github.com/BaptistSec/Tidycade/releases/tag/v0.15.1) | [SHA-256 checksums](https://github.com/BaptistSec/Tidycade/releases/download/v0.15.1/SHA256SUMS) | [SourceForge downloads](https://sourceforge.net/projects/tidycade/files/v0.15.1/)
 
-[Official release](https://github.com/BaptistSec/Tidycade/releases/tag/v0.13.0) | [SHA-256 checksums](https://github.com/BaptistSec/Tidycade/releases/download/v0.13.0/SHA256SUMS) | [Matching application source](https://github.com/BaptistSec/Tidycade/releases/download/v0.13.0/tidycade-0.13.0-source.zip) | [SourceForge files](https://sourceforge.net/projects/tidycade/files/v0.13.0/)
+These downloads are not for macOS, phones or ARM computers. Game availability and requirements differ between Windows and Ubuntu. Check each game's card before installing. The online library can change without a new launcher download.
 
-![Actual 0.13.0 Ubuntu first-run guide with accepted live catalogue](screenshots/library-0.13.0-first-run-ubuntu.png)
+## Install and play
 
-The screenshots below show the prior 0.12.0 browser and controller-return interface. Version 0.12.2 added native library views and clearer browser build requirements. Version 0.13.0 adds the local library lists shown above.
+1. Extract the complete archive to a folder you can write to. Do not run the program from inside an archive viewer.
+2. On Windows, open `tidycade-windows-x86_64.exe`. On Ubuntu, open `tidycade-ubuntu-x86_64`. Allow it to run as a program if your file manager asks. Python is included.
+3. The library opens in your existing browser. Choose a game, select Install and wait for the download to finish. Then select Play. Installed games are also listed on the Installed page.
 
-![Actual 0.12.0 Ubuntu launcher and 50-game list](screenshots/library-0.12.0-ubuntu.png)
+Keep the supplied notices and folders beside the executable. Internet access is needed to download games. Do not run as root or administrator, or bypass security warnings automatically. The Windows executable is unsigned.
 
-![Native controller menu returned above actual SDL-Ball on Ubuntu using virtual controller inputs](screenshots/controller-0.12.0-ubuntu.png)
+Optional Ubuntu applications-menu entry: run `python3 install-desktop.py` from the extracted folder. This registers that copy for your user without sudo. Run it again if you move the folder.
 
-![Actual packaged Windows native menu under Wine, not a native Windows hardware test](screenshots/controller-0.12.0-windows.png)
+## Keep your games when updating
 
-These are actual running interfaces, not mock-ups. Artwork retains its own licenses. Controller input tests were virtual, not physical hardware; Windows checks were under Wine. Guide/Home may be reserved by the operating system. Unknown, detached, browser and unsupported windows are refused, not force-closed. This is not a universal controller-only path for every game.
+Close Tidycade and finish any games first. Keep the `home` folder beside the new executable to retain installed games, launcher-managed saves, favourites and settings. Extract the complete new archive and do not run both copies at once. Check the new copy before removing the old one.
 
-## Library update
+Uninstall keeps launcher-managed saves. Some games also use their normal user-data folders, so keep those when moving to another computer.
 
-Your library now includes Favourites and Recently played in the browser and native controller menu. Add or remove a favourite on the browser game card. Recently played lists installed games you started through Tidycade, newest first. It records an accepted launcher start, not a completed play session or play time. A failed start is not added. Games started outside Tidycade are not tracked.
+## Using the library
 
-These lists are stored only in `home/library-preferences.json`, beside your existing local installs and saves. No account or analytics service is used. Keeping the home folder during an upgrade keeps the lists too. Removing that one file resets the lists without removing games or saves. Uninstalled games stay favourited but leave Recently played until installed again. Existing installs and save data are not rewritten.
+Search for a game, browse by genre or return to Installed, Favourites and Recently played. These lists stay on your computer. Recently played records starts through the launcher, not time spent playing.
 
-The Library explains the first install and offers checked setup starting points when they exist in the accepted list, with requirements and evidence on the cards. Offline or legacy-only lists get neutral genre guidance rather than a size-based recommendation. For a returning library it links straight to Recently played or Installed. Native Build requirements shows existing package scope and declared minimum OS; full notes can scroll without pushing Play, Return or Quit out of view. Focus the notes with Left/Right, then scroll with Up/Down. Keyboard and mouse still work.
+Keyboard and mouse work throughout. A native controller menu is also available for supported controllers. Return and game switching depend on the game, window system and operating system. This does not add controller support to games that do not have it.
 
-Changed persistence, failed-start refusal, real API favourites, first-run/empty views, browser keyboard/mobile layout and native recent-view checks passed in the matched frozen Ubuntu and Windows-under-Wine builds. A private local web-entry fixture checked accepted-launch history and process-restart persistence; it is not included in this release and does not establish gameplay quality. There is no new physical-controller, native-Windows hardware, audio/GPU or all-games qualification. Earlier checks below apply to unchanged paths.
+Game-list updates are signed. A failed refresh keeps the last accepted list. Launcher updates are separate from game-list updates.
 
-The previous native download progress and guarded cancellation remain: Keep downloading is selected by default, Back leaves the download running, and confirmed cancellation keeps resumable partials.
+## Compatibility and licences
 
-## Play
+Ubuntu checks were run directly; Windows checks were under Wine, not on native Windows hardware. There is no claim that every game has been tested with every controller, GPU or audio setup. Each game keeps its own requirements.
 
-Windows: extract the complete Windows ZIP into a folder you can write to, then open `tidycade-windows-x86_64.exe`. Ubuntu: extract the complete Ubuntu archive, then open `tidycade-ubuntu-x86_64`. Allow it to run as a program if your file manager asks. Python and the native controller-menu runtime are included. Keep the notices and other supplied files with the executable.
-
-The normal launcher opens in your existing browser at http://localhost:8866/. Keyboard and mouse still work. Internet is needed for game downloads. Only one launcher can use the default ports. Do not run as root/administrator or bypass publisher/security warnings automatically. The Windows executable is unsigned.
-
-Optional Ubuntu applications-menu entry: run `python3 install-desktop.py` from the extracted folder. It registers this copy and its TC icon for your user only, with no sudo. Run it again if you move the folder. Delete `~/.local/share/applications/tidycade.desktop` to remove the entry (or its equivalent under XDG_DATA_HOME).
-
-## Keep your existing games and saves
-
-While Tidycade is closed, keep its `home` folder beside the new executable when upgrading. It holds installs, settings, cached game lists and launcher-managed saves. Check the new copy before removing the old one. Games can also store saves in their normal user-data folders. Uninstall intentionally keeps launcher-managed saves.
-
-## Controller navigation and return
-
-A controller recognized by SDL's standard game-controller mapping can open the native Tidycade controller menu with its Guide/Home button. Where the operating system reserves that button, hold Back + Start together for about 0.8 seconds instead. No operating-system button binding is changed. Home/Guide capture is not guaranteed for every controller or system.
-
-The controller menu stays hidden during normal startup, so the existing game-card browser remains the main launcher. A keyboard/mouse user can open the same menu with the browser's **Controller menu** button.
-
-In the controller menu:
-
-- D-pad or left stick moves. Left/right switches between the game list and actions; up/down moves within them.
-- A chooses an action. From the game list, A moves to Install/Play; press A again to use it.
-- B hides the menu and returns to the game, or cancels an open confirmation.
-- To switch native games, return to the menu, select the running game and choose **Close selected game...**. Unsaved progress may be lost. The confirmation starts on Cancel. Move to Close game and press A only when ready, then wait for the game to exit before playing another game.
-
-Closing is a normal window-close request, not forced termination. A game can show its own save/exit prompt or ignore it. Use B to hide the menu if you need to answer a game prompt, then return again. Unknown, externally launched, detached and unsupported windows are refused rather than guessed. Browser games and some terminal/Wayland/fullscreen games may need their own Quit command. A launcher restart can lose ownership of an already running game. This is not a universal controller-only workflow for every game, and it does not add controller support inside games.
-
-Held input is blocked until released on return, focus changes and confirmations. Normal browser foreground controller navigation remains available for browser-recognized standard-layout pads: D-pad/left stick moves, A activates, B closes a credits dialog. Keyboard and mouse remain available throughout.
-
-If the browser is closed while an owned game or the controller menu is active, Tidycade stays running so return still works. With no game and the controller menu hidden, closing the last launcher/game browser tab stops Tidycade after a short grace period. Quit Tidycade refuses to abandon a running native game or an active operation; close the game and wait for the operation first.
-
-## Matched launcher, different game availability
-
-The existing online catalogue has 50 Ubuntu and 14 Windows games on supported devices. The included offline fallback has 25 Ubuntu and 14 Windows games. Requirements filters can hide games. No new games or Windows recipes were added for this release. Search, shelves, downloads/resume, explicit updates, installed-game actions and saved-progress handling remain shared.
-
-Pocket the Place and Platform Pests remain separate retained-rights games. Both official packages use original MIT text-only title cards for them instead of older retained-rights gameplay images. Other media and game launch recipes are unchanged.
-
-## Verification and limits
-
-The changed library-view and build-scope paths were checked in both frozen 0.12.2 executables: Ubuntu directly and Windows under Wine. Native keyboard views, empty states, selection and busy-quit guards passed; browser testing-scope/requirements cards and the live50/14 catalogue passed. Fresh extracted archives started with25/14offline entries, zero installed games and no private transfer fixture. No new physical-controller, native-Windows or all-game coverage is claimed.
-
-The changed native-install path was checked in both frozen patch executables: Ubuntu directly and Windows under Wine. Actual keyboard events drove native Install, live progress, default Keep, Back, confirmed cancellation and retry against a controlled HTTPS transfer. Retry resumed at the saved byte offset, then passed size/hash checks and showed Installed/Play. Existing source checks cover stale-job refusal, unrelated-job isolation and busy-quit guards. These checks do not add physical-controller or native-Windows coverage. The wider 0.12.0 checks below remain prior-release evidence for unchanged paths, not new all-game checks.
-
-Both packaged executables opened their real interface and native menu: Ubuntu directly, Windows under Wine, not on a native Windows desktop. Their 50/14 game lists, TC branding, source/interface match and normal browser shutdown were checked. Both default to a hidden controller menu and have a tested keyboard/mouse fallback.
-
-The input bridge passed 27 pure and real-SDL virtual-controller tests against the exact bundled Ubuntu SDL 2.28.4 library. The pinned official Windows SDL 2.28.4 DLL also exercised the real-game controller cycle under Wine. Actual Ubuntu SDL-Ball and OpenTyrian, and Windows OpenTyrian and Teeworlds under Wine, exercised launch, background return, held-input protection, Cancel, normal close and switching using virtual controller inputs. Owned/unowned same-title windows and a disappearing X11 window were checked separately. These are not physical-controller tests, native-Windows hardware tests, or coverage of every game, device, audio setup, GPU or full playthrough.
-
-Keep LICENSE, LICENSING.md, THIRD_PARTY and attribution notices. Tidycade's own code is MIT-licensed; runtimes, games and media retain their own terms. The separately named source archive matches the launcher code/media in these binaries and includes the native runtime provenance/build instructions. GitHub's automatic Source code archives describe the downloads repository, not that separately attached application source.
-
-[Earlier releases](https://github.com/BaptistSec/Tidycade/releases) remain available unchanged. No automatic launcher-binary upgrade is claimed.
+Keep `LICENSE`, `LICENSING.md`, `THIRD_PARTY` and attribution notices with the launcher. Games, runtimes and artwork retain their own terms. Game and artwork notices are available through Credits.
