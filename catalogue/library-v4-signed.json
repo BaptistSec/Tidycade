@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 75,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-75-oolite.zip",
-    "bytes": 21426380,
-    "sha256": "04a4844a9e3a5c505693b683a98c1c423b8d874dab7f014fd73f42c81d1d30c2"
+    "revision": 76,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-76-freedink.zip",
+    "bytes": 21882530,
+    "sha256": "2cbbe2b555bc67ef7f058f80de1667cf470fa20ae5caa2de275f278a48ee13e8"
   },
-  "signature": "j0NsOid8RNFhTwk5taw9Xo1MaZ/ryBQiQB/0ITzj8yBOUIl3nxtp7INskCXJkWe4S8ejhLnDYby6fa5mJt5pXM1yXWaoaXlrldb383KgfgaMcLdEw1tzPGNXPtIAlYP6s3KqZGVSGOj4C4FBXd81efMrbtv7Ri+kklWys2mtJe7PGVNlAfL1mM3ItXBI826KlqWHVSfwxk6BmE1Ovm+4bYjqOrPVXpzivinf5ZJYIpTkGJGkTe8FHox1deBjNog76Oxl0B/j40VC1eNf2qMBVapc12AnWEPMALFBYU5XoI39iS5iFaGcq7ONrTpnT+gub8CKyh1TOFg2WrujRg1pqNMPXhKroKKiOuffN6aOjOY6PsgVYtY+Cdli49qENKBqzMmoMyfISkE0yLiUBsAB9M2carVpkeydoZQu5TpYOIJsROP/fVitwJt0q+hQCOHCP7qvGuJ6yAs59B5cUMwBo0DjiAnw6YqEJt7/9qdxE1xL26+QNn7TWDV9aznDXbYf"
+  "signature": "a11fJ5GW5Sgcy7usvS39O+Gl7VOyfCWK6+q/YbSwsHwaqxkpn1ejtywv1pLH/DAGxFS9dzLcWp2vYHbCbp7D3hjYadlUWW3H/4d7sbRKcFvJBf7xXxP3GNocsA6XBvgNeeGrNfFUpNXli8mbkQ/0b4/raatvpWGBAOSkUrJyab+C0533VuKP+MtMYZXJ5oqfmpxXJuvAj3Zfbi+NL7rFjMrhvwlkMylnuThOtIazZezaC8H+B5hvn/ZQwE9NkT7pOJdu5O3ZJgKfSS80ujNkPh69DObV+jqRbU0QPDrvYMjJ0V1/9qy5sXVe6BRZWNZ875EBFCFAyJ0gewCxUTRceuiD9KHSaO+fzfN+wmtTPGVLiV5eci8MoHVtjjOlrmNGroFOpJPFuSE3F38Eb1piZwuS1qNkIJK45o8/Zc4s8c3VsmZJDvwNWdc5Fx7Bbf1VxDxFHUsQAnjWKQI3TzGFMykDLjI48XTDr4Wo1AkOcvrjLODQZrDbc6HAenpw2sm9"
 }
