@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 71,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-71-angband-compat.zip",
-    "bytes": 20787636,
-    "sha256": "d10c18c36b97c912c77be847bda16e581672d767b2ecf02b970e83474a8f89d4"
+    "revision": 72,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-72-simutrans.zip",
+    "bytes": 21196979,
+    "sha256": "557d575d8e32e5451ec27e6529466a6098701b5e27160448c73e1b13b6d73c7d"
   },
-  "signature": "QVumVSGjQSe6xAQqaieRdw3vpEMaI4FokayhEvv4okYCibrgzW3fLhLVBXOxdvuqs+UFxPLChmL2e5U10XlLInMq6bkwfPgHVK5Dg0ib4qjKeVD/PEAU44bh/quKiGDt5L6eB3uOYooY/wZt4JjLGwu8QI2b1VAbF4h3sfD5xQpEfpmd6697oFYQt9n2LjdHlB77zPSKz9XBrU1ZS9YIrQJ4K3j28ZVQ0W/HOp47X2ZrNm9pnNNOTB4FB96+EbcTwEdtYHr7iNee6+VqnhphVzr7GSp8ASN7P/G5dSG36yCytxhtsoWpc6mEsM5EkJhUuuNjoKgHrX09QQ2Pa6FbS7jIbTTUhZ4FprLXMZe99AZTWvo1DMyC2v7buG6ZocSrrYONFF7Dk1feR7tqLm0fLPuECtAF/55SSXlue8j+1UwLmV4+ksezHEWWXaNHxpgEOYEzQnyqTEayX5G+8t/6kcXYISLdvFhf65GBhC7LzoLLeYht1mu63zPUmBTMq0Cs"
+  "signature": "FYT/2ziga2zR61Miw0Rw3Rih0ylDn4TtnUQDZb/zcB8BEu8OHFS0qO+j3gy91tS0sl6fflzGlX7SazD7GzLO+wgMosZNEN5AhUopYtoJ3wf8b5obWJ8biOVOFKWUko45/HtWrBLjGAk/FMs0sQ1pPx4Ww1yiIwP6n/HOmHfy6cAAoY/+ynj2wuEEkegJsDoFvo888gT0OzDYjxBACZHuBpaylcSZjZxBNBdENUgJOLGZw/ZXcdr2S6Fdb0vYSc/Ir5Cfn31D+5R3Mb3pWwsf5W5sTB9BWUNMjL4gGHzDMXMUxtk1qtnE8xlb6iOmfy02SScmjLBPTQdTL8LIs19kLTnn2FH9S3h700oZm9VkWdiKm6VKG4ZldWPqgjh2z1IfyItf0cuetA3T5lEtLi6GW9TU1kOOi5bwFheCuy9ddV6SXA4RjsWsU+TR8LEqrys9qduOogU4YMD6LnibEmCDkawffy7ATtP+ylR/ZDD44Bfu+dW/8wEMzmEJFbiIrRuJ"
 }
