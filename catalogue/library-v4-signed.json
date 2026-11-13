@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 78,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-78-ddnet-final.zip",
-    "bytes": 22066474,
-    "sha256": "f9e97632e56fd5b20b738a58daed78a8982561862bf44bbde9caebac642ab2fa"
+    "revision": 79,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-79-hyperrogue-published.zip",
+    "bytes": 22270851,
+    "sha256": "be068e78f0f16fadc1c61d08c9413847012a96c9f6f6fdafd73cf0bf44955938"
   },
-  "signature": "Uyi8vZrLv0OKC4poAKmhiENkR+Vc49sCtz8M163l/3gb86HiV85Fqz8gQ3goV/amKfgN8k2TW2dd45B8ylVMyCnPXires5Fk1JB354ilITsOaKVz44JoWSVwzxueo0zEA76m7x7hSA0YtNCDMQPVB1FqUesJ4YRMm0x1AvBazZChuH/Bz4buYetIOB5A0oPIM9msHbj3yXaqXSJtv0RsR4e3rwWgtDtQ2Z3C52JeHSpmTN3vUOi69jhZjlt2PdW0XQLcc3YXJOiR7frk9aqtNZYgV+T0IUsEPoNjUamGMw3/qOOanK0f9UpEYK3zl61aFjiOI/5VfBjJ6vsB41rhl2sks4q7IKdRFL6n8Tx+sF5CJAj6z9TLUdFsNRXuu+GUjaGaUFDuIjQzi1vKqWqQzOtbaEz3vu3dndvZX/qu5P9xr+7pptN80a/b0WMmsADKULJPMIXpXGhAE17hPCRO5ZfCAM0T34fae9riqPFRiDvMV/EpNJtzU6O1gHZu0AH/"
+  "signature": "Eu8++1+StdVlqbkVA8de58HrF5nVDZMAuioGMkt0bcX/1k/qLxcOciW2VClX3QqvRHeja6/yT5mKhU/hYeckOdq1XsYLwkJpxZaiwbRLvZKBndRuNSllXqT4hpxP3fgHo9iiRydhrYRMvwqPH1uL7cTHlQuEMbEIHYKaHM/imsfmrxAf3Lg7dY11M9qUGjKzk8jHdmTeYTLN+DqsfFLj+HzHRaCfUWngvK5o7Vdml9zCIr5qPKSbrVH/F4oyf96D7ibBgd5VQGFMdUfgqWcf+u9vJ5igVvqbMsdYyArFYDOH311dmlkJ+o61GCQd47YjYh5ZkOsr/X5lDAxH9ViMPsgjEyhRiPQM32IfXkQzAprrPVqsbvpd2C2ZkKCdQvVbbDW5mT43tqPb6aZ92NWTW7Jgw+EYVk5YNegYumXGPUWhU6519k79eqoRQS247BB5YqW8OJY/4mCbJtxjB57NKP8IpRC5pTRUqt0vwzBqIh3ORJZXL0CR0eKMCgKOEtvL"
 }
