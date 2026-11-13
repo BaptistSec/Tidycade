@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 87,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-87-azimuth-published.zip",
-    "bytes": 24038193,
-    "sha256": "0c72190249c17cd7f3a254b7bbf8d28dff966cf98099efa16ddaf80b50a87d6f"
+    "revision": 88,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-88-hide-openhv.zip",
+    "bytes": 24038201,
+    "sha256": "d98009415af5e49b89b8e857f4dffbc542bbce8b257c62c4955ad317e52b6038"
   },
-  "signature": "YaEA/oN+b7YlYoTtHK8mqfytxMq/eLnTcnDJBh9fhaFglMoyTHsdpSzZ1RAnR6gaYNCs1Sb00aHNGUIE2svAzNHyK1I5TeViT75TmfuypH8cb95pL0iO2Ph4PYtjHa/j72uXP2iTmAA2j7DQFqR7s19IazFBGjVSUm80wkjtnGiYz83E+X+yyU7D5cT/I4G9vTagDupttd80CK2G6fxbWj8Xi2tJkkamOKx7ZgPVcaM+WPpBGzeDNV3WkBQ41g+EA379+8fWMwqbawBST3Iy1U2UTgLJtlt7JzeC4dCJ6zUjisKvbyq+jNvQv4oa81oL7ptPvPNlZtyAeFMeY7AkXwf+m2fHi/EH1Ekq+uy2BgFZ8lSz2DGmMjN5AUaLcxbI86qXZdnWNeIL7eKJ4nr7UyThC/XDq65t/ppzngntu/VOWp7rXZuWUGsrSuzaRnt9njCmT+hauFPMRMKPCNnjTXA2kQiqhaHEUcJ9+6aaceTtXyBQpZsx3E/FMYpxNNHt"
+  "signature": "HbGWSxQ2pIL4q2AB+LrNmpevB9ksoqy95z+YUrX5Y4FWcXk/5CNWaTKS5VsJX5sdpVkIcMraXfoEDSPTKG0HqDcYh2Be975WYLPTnYeOb/yviK3Bcgwb7T4x3JLbbMVkpUXUaHvZZqSag0wg6piHgllTVjH+7brX9qqeAKv2fIpTQK3ig9xK2vQxz4rOmEeiLFTMhYg4sfXVCUBLxwanHic1tbx9pe6c0bq1ugsMUTk9z3sEeAWbDM5JX+u78G++p1ZKj35zpbXIOL0puj7xrefgaeRA912zZVsYwbi+cmIlWmtVDHWa1czujYhtNHmimw/0O14XI8OWwuINMya9EWI3gs/gG+wJW9RGmTLw6jDuRQhgdnEzTgBxodaT+GQSCjCDGRRv1U89mo+jDsQBRX64DGQgiO1VGn3oz1KX1ApiJpbUWocc7n9O0vCQnjq4dcLcmcgh1bYr495s22LpHyCfpkCmB4sdxZg7L9LebDRkz/i/Au4karn+Erre1U9P"
 }

@@ -1,7 +1,7 @@
 {
   "schema": 3,
-  "revision": 87,
-  "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-87-azimuth-published.zip",
-  "bytes": 24038193,
-  "sha256": "0c72190249c17cd7f3a254b7bbf8d28dff966cf98099efa16ddaf80b50a87d6f"
+  "revision": 88,
+  "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-88-hide-openhv.zip",
+  "bytes": 24038201,
+  "sha256": "d98009415af5e49b89b8e857f4dffbc542bbce8b257c62c4955ad317e52b6038"
 }
