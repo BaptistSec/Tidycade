@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 86,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-86-bzflag-published.zip",
-    "bytes": 23967827,
-    "sha256": "8d9e0039627f922cec1bacdcada5f56fac89460f63e1ac1ab37b62a6a4693f48"
+    "revision": 87,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-87-azimuth-published.zip",
+    "bytes": 24038193,
+    "sha256": "0c72190249c17cd7f3a254b7bbf8d28dff966cf98099efa16ddaf80b50a87d6f"
   },
-  "signature": "PghkHZVHZ9UTtGZ1OOuKxie5Zqa+3DyH/ZmTX6lzWWqXlkD17/0wlFz4qAOW6RIFiX8/ZTTbMSgVSjPZEe69zi48s2RPm52Y3okwTBkb95gyBPWU/Qm5wjYw9/J7sAylWSuiS9fW8jVWS0dyeJjCl4ofi7XDwgwVvLBQeP9YTeTtqM0L4gWbAv0pWxiQK42hd/asZ0ubrYzT3eyQAcRd6AgyXZMVVambmkJoZmjua4yTn5GqKwjvoyFsfHs+sWr75Mtb688uYVxRhMhlV1biguswFWF4vMVXoTfd14HjmHiJKEP+r6YLPNW4Cbf3yt5ETLN+GNyqwjX80TsVqvbXK9+rmYRHkuOokfGN4kSqKWTXvdM8y4fn1l0vt7fT1N4p9WFqZvIQw72kfRZ0Ts1w7e51IR3fq8DzYKegTeUF+tdFgBh90r37ix/qV0fRZ4YL0wOzylhWpviGgXJS8cgVIPstbnTYMZe3o4d8bNfzdN+gCTS+0WH8MXYlNxz87GyS"
+  "signature": "YaEA/oN+b7YlYoTtHK8mqfytxMq/eLnTcnDJBh9fhaFglMoyTHsdpSzZ1RAnR6gaYNCs1Sb00aHNGUIE2svAzNHyK1I5TeViT75TmfuypH8cb95pL0iO2Ph4PYtjHa/j72uXP2iTmAA2j7DQFqR7s19IazFBGjVSUm80wkjtnGiYz83E+X+yyU7D5cT/I4G9vTagDupttd80CK2G6fxbWj8Xi2tJkkamOKx7ZgPVcaM+WPpBGzeDNV3WkBQ41g+EA379+8fWMwqbawBST3Iy1U2UTgLJtlt7JzeC4dCJ6zUjisKvbyq+jNvQv4oa81oL7ptPvPNlZtyAeFMeY7AkXwf+m2fHi/EH1Ekq+uy2BgFZ8lSz2DGmMjN5AUaLcxbI86qXZdnWNeIL7eKJ4nr7UyThC/XDq65t/ppzngntu/VOWp7rXZuWUGsrSuzaRnt9njCmT+hauFPMRMKPCNnjTXA2kQiqhaHEUcJ9+6aaceTtXyBQpZsx3E/FMYpxNNHt"
 }
