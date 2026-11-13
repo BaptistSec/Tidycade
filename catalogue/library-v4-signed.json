@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 83,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-83-luanti-notices.zip",
-    "bytes": 23651669,
-    "sha256": "42243e4b16d1c313e64b35bec810b6a18e1a221421451bc0ad9e33ad41ad700c"
+    "revision": 84,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-84-emptyclip-published.zip",
+    "bytes": 23775585,
+    "sha256": "f8ab5cab499de53e8489f3ac4f724e1e5b46b4574241e382c0f49cccfe202012"
   },
-  "signature": "cYMko8defXtBFbHUXhNy0LA+H0KgU0nr02LNTSZxC8Nnx0cSoG46FX9TNOOrWH5peYUDJCgIGjlU3kR3oWAaBOY/JV69z0YzANAsjOX86B5aA0YE5QN29eQviy0ALOd/EOPgrMc5lUgPXSkGv2xT7KcOdsVH7xQrS7DCQcZC5xu2Qi1buePrnC6Wu93rB0+jluCHlscnaDTPJYtdy2phK5Q4O6bDg6toC0xFCN08DJ4/YVnPQ3aLJspG7AhdjUKzjkmxAFaBG6WNmiFX3jok0XkdUcmy7yZyxq520Ts3IWZRi3sVWSlakEXVdlC71t38jnKxsIvnz2doSODpqBt1jnPqk1a/lbBxOXeJ9c2J6CYTDuxGM8hUzNvLex5UxmxvcCvZfSHxRkiE8E6vo3R6QXsJgDoyBWULxP5MRloDECJE2viydgMn5mvSezlHD8LrpaozjkrAw8pE7ykN9lQvQep5o8EIntAvTqgy2FojQitxsfolE0kgW3el/M0/hf2G"
+  "signature": "Ziya5vq19uujFPbeMS8m1UhroYklJC5k5gKTu4N/KDjrjoUQrd8R+IBDzIwPP4aGiuvbOzFQJsNkC6SQM4h1eG1jsLw1brO64oDGZBXtRv6ZUVRRw5sQMQ2+LWNMZtJ9dKfENuWcEC7XdP7KtIkM6MlH6/Gkes7KCUtMpZjm47DTMfaAVQhSSBP3BMsgZeD8AkHeMUdT4qz3jxTeph6YyDwuR99iaqE2SciZD3WwMdCIz5Nd6JmH52aOkM4CyUrK/d5uacuPVS3ScUjRGJB0/HEQwYeCQEW5oKOtIU8R5ZJyuGqmZyaZHEplLIYS3Z191IyJZCmpuIt5+kjhKQnJXnIBFgvvMBgheCcTNPhAL+61UV3Q1PCSq38jA2l9M5vKrxKqh0qU9U3aOr4t6T1tBO6MI59TiQ/Di2PqZRklXu4QGqlRkt9tgIJjZNAiRwhSlgwKW4vXyaHTQulpYdIZIL2bm4JsLTJ0xdtDKBtFAOqXvZ9GjSEGFUGh+Q1Ttl0J"
 }
