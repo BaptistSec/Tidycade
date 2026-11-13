@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 88,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-88-hide-openhv.zip",
-    "bytes": 24038201,
-    "sha256": "d98009415af5e49b89b8e857f4dffbc542bbce8b257c62c4955ad317e52b6038"
+    "revision": 89,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-89-syzygy-published.zip",
+    "bytes": 25047339,
+    "sha256": "e87073e977c7b07d2b5f4b6ac936466c534462a34e562127375e69cab74eb7e3"
   },
-  "signature": "HbGWSxQ2pIL4q2AB+LrNmpevB9ksoqy95z+YUrX5Y4FWcXk/5CNWaTKS5VsJX5sdpVkIcMraXfoEDSPTKG0HqDcYh2Be975WYLPTnYeOb/yviK3Bcgwb7T4x3JLbbMVkpUXUaHvZZqSag0wg6piHgllTVjH+7brX9qqeAKv2fIpTQK3ig9xK2vQxz4rOmEeiLFTMhYg4sfXVCUBLxwanHic1tbx9pe6c0bq1ugsMUTk9z3sEeAWbDM5JX+u78G++p1ZKj35zpbXIOL0puj7xrefgaeRA912zZVsYwbi+cmIlWmtVDHWa1czujYhtNHmimw/0O14XI8OWwuINMya9EWI3gs/gG+wJW9RGmTLw6jDuRQhgdnEzTgBxodaT+GQSCjCDGRRv1U89mo+jDsQBRX64DGQgiO1VGn3oz1KX1ApiJpbUWocc7n9O0vCQnjq4dcLcmcgh1bYr495s22LpHyCfpkCmB4sdxZg7L9LebDRkz/i/Au4karn+Erre1U9P"
+  "signature": "mpV5HCsU92Dd1W5Hu+C3w/L0loWKduIhzLJrr1AIIaqXoNlcdpH06izWz934YtQfgxI8r2w4GLDnpoX1+rhjGtOYLPeEn8l1HEs3apI4oxKoLJu9YAwCZmU+nqa+OhesFNShFbbiI6doky4i1fU2N0Yv/2C6Reb154d8cY09DgZjTA945BtUPnRvVtu6f5jj1tN91QjHJPQrWGF6vAMY3M3qSPKyDppjxhrGq1fWJh9MDbS64gf8BM1MCnNJSnnbcYzLNJ7VHxjppRRyI9RVNoidCe2kADXH5ideY0rX3w8vX7jx48KidevwbuIvpH97sV8/oCVM9Vwzzxb0Pfhd4TBrN5n/Egn3Glk+ManIzkYdiI5szwMm2wmqoTfWqqZ/TTwhOoi2FmzEv/dWmNq9pjX0yU8kV7aqLQKoHmpMKxVVdndd8i6Z21hOXIj5tKqm/oWdPExWDMhB4rdegYY/4QngK+r/ab/atd9XVFgKVSzCODas32Vizp/kd+BpyyW5"
 }
