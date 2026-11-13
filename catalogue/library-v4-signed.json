@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 81,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-81-harmonist-published.zip",
-    "bytes": 22393159,
-    "sha256": "8b89fb6bf58a34753062a7c8263825ad9d8d048bb04447b66d918e21e2784e85"
+    "revision": 82,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-82-aaaaxy-published.zip",
+    "bytes": 23499861,
+    "sha256": "4216356cb85b624a89679ba7b15838ecd78bc1cbdac53406d54f40196fa1e3f1"
   },
-  "signature": "aQFnoF98/GCU3yC0Dv0rXL7EDlnZy3RYCc5QKIYxqsXFvhGlFbngP5Ex+YmqoiZKl8VHbj+cwtfabNd85/lH0E2qJxvpJ+DdwnseTcRNr++CbVxPCUrRdZRvGf80RdXX3405bDuxaBrdzxDULibu1wqoEwk3Ws00UQ+3mbIN0xDLqGozLzhgfsQr7n67BH92A6xnpoz8nDyNn3YKlmUC1kfd/nKpSEE8/0dshvkr+lL9F1xGSqYg7lV6FV7ggP3DbWzHdpWvWpmXGdAj49YDiG8QqSr/ZhFOrl6pf7gWBdbx1E+oPaUmO9CLPwvUTiX7PWmFMSGqoDMSM/CU/96aKCxL0hZq5jfDXz+h8dGdLsKP266OGkSRmj22A054jfCogm9xEbADVMfxSBrxgTX9BTLxNmAVP5LnEvrefHI5fEo42rCbLrKD+Sq/pfPhE+HkljXFgmFhbbfM5t31tGis2Bcu2fNiKJ67mFKDBDWZ/ia/BSjsEuhruHn6FOUSlXgs"
+  "signature": "oEyRW1cmdz2/mMLzKUT+Tq1Nh5OyTraK0zjo2/7AwgTfDeLin206yCo+nkUVxcaUWKMYHBNftAZABey1NXU39dx5brMaQhl7khyaXk6yPum6JkkJsZ+DAlwOyOoMdHMSz3EOSKL5PKF2mAG0zynjtzD4c+NYY69NCHrJCvZ/vyyCy+/JRDNDgrJwdnJljL6D8OKCMcFAolLsSXaqors8ZYyzUgfKpdJgT80Okg4IdFcUYBdW/IhFgow2lPm5sB3+/ZF16TcuN/K4z2Z5IaQBN/QC7G2JHcU1ZnZ0cDho0aa+KekIopqP0YwDzxehanvLBTpS6yLJpRtlWxOeBwJs+nwjrovCOaZwd7dtD7eVAak1ajw6oQUhTKuofJhhOCTzdFdNV4ClqW5V1pCFoJrRdwQgcKDgjc03ITdeaRXt51shU+A7FkxlgZCnko0a98HM75zh95tzQIbhcUH0BsQDKOXihVCKJvKTVhdsSq3t5/6LTxbKWAOHLopYKXpU6hl5"
 }
