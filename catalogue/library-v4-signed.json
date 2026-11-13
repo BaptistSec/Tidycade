@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 79,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-79-hyperrogue-published.zip",
-    "bytes": 22270851,
-    "sha256": "be068e78f0f16fadc1c61d08c9413847012a96c9f6f6fdafd73cf0bf44955938"
+    "revision": 80,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-80-lix-published.zip",
+    "bytes": 22340399,
+    "sha256": "c145b4b4b7797cf0214f2efcf4078fd4a67d2ba8367a76bc3a45b53d914391c6"
   },
-  "signature": "Eu8++1+StdVlqbkVA8de58HrF5nVDZMAuioGMkt0bcX/1k/qLxcOciW2VClX3QqvRHeja6/yT5mKhU/hYeckOdq1XsYLwkJpxZaiwbRLvZKBndRuNSllXqT4hpxP3fgHo9iiRydhrYRMvwqPH1uL7cTHlQuEMbEIHYKaHM/imsfmrxAf3Lg7dY11M9qUGjKzk8jHdmTeYTLN+DqsfFLj+HzHRaCfUWngvK5o7Vdml9zCIr5qPKSbrVH/F4oyf96D7ibBgd5VQGFMdUfgqWcf+u9vJ5igVvqbMsdYyArFYDOH311dmlkJ+o61GCQd47YjYh5ZkOsr/X5lDAxH9ViMPsgjEyhRiPQM32IfXkQzAprrPVqsbvpd2C2ZkKCdQvVbbDW5mT43tqPb6aZ92NWTW7Jgw+EYVk5YNegYumXGPUWhU6519k79eqoRQS247BB5YqW8OJY/4mCbJtxjB57NKP8IpRC5pTRUqt0vwzBqIh3ORJZXL0CR0eKMCgKOEtvL"
+  "signature": "SM8iJQdn35AWR+rvHnZicKG89mKJaImUpEkYtY3Vw0IVStGo3IueHSHpQiN68F7UOQaZrrxFubu8xwHbvOoDsR1YY7LRvLH6AZl0vZFIQfUfCo8DzSbR7DAGPqWneb9mYoAelQhPRJq1dVJLHl5NbR+Lgr7QyJuZce5wFo5x8ouRUcIMT+r9Um7MJu+6PGw34oHUz1A5o6pGeXyL1OQWbhwklaZ/USaFpQ7q1Vk2VFGqlUkNbjNZfnueGlHveTLRQSSRqJ3whHvmq15YuCFDiadlU8ZHSKzs5cUnKRhtqddmu6JOqrpg4QC7lymcF9QvKI7+g/E/5IF9DRPPHuLrm9gKiHsTQdaYp18gZnNNLr+c4mRoQTwN5CLXkJucwUlNr+1DPl1W32gr44buaxffNXCpSpXHEx9tzjFe805xQHzYSJcChPlHS7V1y5PyJq21cD4fX5zAAm7nYypmO1m9eajlGBoTrIb1mZTsG2aY6ocq+LuPdGbi91EVj12Ge5V2"
 }
