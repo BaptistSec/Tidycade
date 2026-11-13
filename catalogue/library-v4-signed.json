@@ -1,10 +1,10 @@
 {
   "payload": {
     "schema": 3,
-    "revision": 77,
-    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-77-freedink-platform.zip",
-    "bytes": 21882606,
-    "sha256": "1992c8eee7d8aa5bc63c80e72d2bc2175c4daee262a9c7f205ec096d59e53f3e"
+    "revision": 78,
+    "url": "https://github.com/BaptistSec/Tidycade/releases/download/catalogue-v3/catalogue-v3-78-ddnet-final.zip",
+    "bytes": 22066474,
+    "sha256": "f9e97632e56fd5b20b738a58daed78a8982561862bf44bbde9caebac642ab2fa"
   },
-  "signature": "T6Ttbt77Ss7VVxgvJ7nNMSHPPGha3Qa6PpV48wypEbkQj8vsRz8WIizE3v4vXnAxrBWlGuCqLVMfuLIo1U0i3SJHeT2GAph6cCE+5ocV80EOQGLQBkYRuhTRD/73/BBDLy7L9kABzBa2YGrMOMTx5eYJLae2X5H2dwz3s1oK1LIXhFSIoPJJwF9l1i+QCUv5zdklraRnUubR3Qghs5HdnE2q6XxEVr8YvfPkQa/V7TWJVtorgZd2AHykzlVj8EdSqWXAr5N2UVQiqE52MMAET8asOrWEV6NSdqe1O4MDUP+5w89Wo5ggjHaXAn+iDAODf7s4KQjhyH4UyzHIjdevft4D9Y9cnkZLlyZOUS8BqVL1rdE6pG5YOu49QYAfNiHEyIh4JtsTs0jw0DVuoBPuE41/MYdxj12mKKx7R3iDFsItMpdCfW+f/WB3kki4PRAnW3GJj8Z1gZwWBuj/4OrJl/e1zwY6Yc5VcfAjIfPuw3UGlYaSAbvwqpyl9//u8TjI"
+  "signature": "Uyi8vZrLv0OKC4poAKmhiENkR+Vc49sCtz8M163l/3gb86HiV85Fqz8gQ3goV/amKfgN8k2TW2dd45B8ylVMyCnPXires5Fk1JB354ilITsOaKVz44JoWSVwzxueo0zEA76m7x7hSA0YtNCDMQPVB1FqUesJ4YRMm0x1AvBazZChuH/Bz4buYetIOB5A0oPIM9msHbj3yXaqXSJtv0RsR4e3rwWgtDtQ2Z3C52JeHSpmTN3vUOi69jhZjlt2PdW0XQLcc3YXJOiR7frk9aqtNZYgV+T0IUsEPoNjUamGMw3/qOOanK0f9UpEYK3zl61aFjiOI/5VfBjJ6vsB41rhl2sks4q7IKdRFL6n8Tx+sF5CJAj6z9TLUdFsNRXuu+GUjaGaUFDuIjQzi1vKqWqQzOtbaEz3vu3dndvZX/qu5P9xr+7pptN80a/b0WMmsADKULJPMIXpXGhAE17hPCRO5ZfCAM0T34fae9riqPFRiDvMV/EpNJtzU6O1gHZu0AH/"
 }
