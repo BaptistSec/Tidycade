@@ -2,14 +2,16 @@
 
 Browse free games, install the ones you want, then play from one library. Games download separately, so you do not need to download the whole collection.
 
-## Download 0.15.1
+Launcher binaries live on SourceForge: [sourceforge.net/projects/tidycade](https://sourceforge.net/projects/tidycade/).
+
+## Download 0.15.2
 
 | Your computer | Download |
 | --- | --- |
-| Ubuntu 22.04 or later, x86-64 | [Ubuntu archive](https://github.com/BaptistSec/Tidycade/releases/download/v0.15.1/tidycade-0.15.1-ubuntu-x86_64.tar.gz) |
-| Windows 10 or later, x86-64 | [Windows ZIP](https://github.com/BaptistSec/Tidycade/releases/download/v0.15.1/tidycade-0.15.1-windows-x86_64.zip) |
+| Ubuntu 22.04 or later, x86-64 | [Ubuntu archive](https://sourceforge.net/projects/tidycade/files/v0.15.2/tidycade-0.15.2-ubuntu-x86_64.tar.gz/download) |
+| Windows 10 or later, x86-64 | [Windows ZIP](https://sourceforge.net/projects/tidycade/files/v0.15.2/tidycade-0.15.2-windows-x86_64.zip/download) |
 
-[Release notes](https://github.com/BaptistSec/Tidycade/releases/tag/v0.15.1) | [SHA-256 checksums](https://github.com/BaptistSec/Tidycade/releases/download/v0.15.1/SHA256SUMS) | [SourceForge downloads](https://sourceforge.net/projects/tidycade/files/v0.15.1/)
+[All versions on SourceForge](https://sourceforge.net/projects/tidycade/files/) | [SHA-256 checksums](https://sourceforge.net/projects/tidycade/files/v0.15.2/SHA256SUMS/download) | [Project news and release notes](https://sourceforge.net/p/tidycade/news/) | [Earlier GitHub releases](https://github.com/BaptistSec/Tidycade/releases)
 
 These downloads are not for macOS, phones or ARM computers. Game availability and requirements differ between Windows and Ubuntu. Check each game's card before installing. The online library can change without a new launcher download.
 
