@@ -1,0 +1,18 @@
+{
+  "runtime/ubuntu/libSDL2-2.0.so.0.2800.4": {
+    "bytes": 1529808,
+    "sha256": "de8d376d25457ec6855bb35a6f2059d23abdd9cb81947831b583b9385facafca"
+  },
+  "runtime/windows/SDL2.dll": {
+    "bytes": 2499072,
+    "sha256": "520d0459b91efa32fbccf9027a9ca1fc5aae657e679ce8e90f179f9cf5afd279"
+  },
+  "SDL2-2.28.4.tar.gz": {
+    "bytes": 7344208,
+    "sha256": "888b8c39f36ae2035d023d1b14ab0191eb1d26403c3cf4d4d5ede30e66a4942c"
+  },
+  "SDL2-2.28.4-win32-x64.zip": {
+    "bytes": 822803,
+    "sha256": "c247328b6e310a26188770948b9d48cc6a3b6bfe899a1e4e358baede6976984e"
+  }
+}
